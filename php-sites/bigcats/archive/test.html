@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        
+            <input type="button" value="click me" id="button1"/>
+                    
+        <div id="navi"></div><br>
+                    <div id="jsTest"></div>
+            <script type="text/javascript">
+                    
+                    var clickBtn = document.getElementById('button1');
+                        var dis = document.getElementById('navi');
+                        dis.innerHTML = "element to disappear";
+                    
+                    window.onload = function(){
+                       
+                        
+                       
+                        
+                        clickBtn.addEventListener('click',clickTest,false);
+                    };
+                    
+                        var result = document.getElementById('jsTest');       
+                             
+                     
+              
+                    function clickTest(){
+                        dis.style.display= "none";
+                        result.innerHTML = "test successful!";
+                        console.log(result.innerHTML);
+                       
+                    };
+                    
+                
+   
+            </script>
+            
+            <a id="aNavi" href="#contact">CONTACT</a>
+           
+            
+            <script>
+                document.addEventListener('click', function(e) {
+                   if (e.target.id == 'aNavi') {
+                      callback();
+                     
+                    }
+                });
+                function callback(){
+                  console.log("You clicked...");
+                };
+        </script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+Tidy existing code
+Tidy folder structure
+Remove unused libraries
+Insert correct images
+Make all links work
+Finish header section
+Get google map api
+Tidy contact form
+Create animation on scroll
+Delete unused commented code
+Create template files
+

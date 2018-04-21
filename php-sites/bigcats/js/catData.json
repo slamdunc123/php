@@ -1,0 +1,41 @@
+{    
+    "cats":
+    [
+        {
+            "name":"Lion",
+            "size":"Large",
+            "location":"Africa",
+            "description":"The lion typically inhabits grasslands and savannahs, but is absent in dense forest."
+        },
+        {
+            "name":"Cheetah",
+            "size":"Large",
+            "location":"Africa",
+            "description":"Cheetahs are active mainly during the day, with hunting their major activity. Adult males are sociable despite their territoriality, forming groups called coalitions."
+        },
+        {
+            "name":"Puma",
+            "size":"Large",
+            "location":"South America",
+            "description":"Pumas are large, secretive cats. They are also commonly known as cougars and mountain lions, and are able to reach larger sizes than some other big cat individuals."
+        },
+        {
+            "name":"Jaguar",
+            "size":"Large",
+            "location":"South America",
+            "description":"The jaguar is the largest cat species in the Americas and the third-largest after the tiger and the lion. This spotted cat closely resembles the leopard, but is usually larger and sturdier."
+        },
+        {
+            "name":"Leopard",
+            "size":"Large",
+            "location":"Africa",
+            "description":"The Leopard is a member of the genus Leopardus and is classified under the family Felidae."
+        },
+        {
+            "name":"Tiger",
+            "size":"Large",
+            "location":"India",
+            "description":"The Tiger is a member of the genus Leopardus and is classified under the family Felidae."
+        }
+    ]
+}

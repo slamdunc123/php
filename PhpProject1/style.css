@@ -1,0 +1,300 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-Jan-2018, 11:28:33
+    Author     : slamdunc
+*/
+*
+{
+  margin: 0;
+  padding: 0;
+      
+}
+
+.row
+{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+body
+{
+    
+    font-family: tahoma;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+h1
+{
+    color: white;
+        
+}
+
+.main-nav
+{
+    list-style: none;
+    float: right;
+    margin-top: 60px;
+    
+}
+
+.main-nav li
+{
+ 
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+    
+}
+
+.main-nav li a:hover
+{
+    
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    transition: all 0.5s ease-in;
+    padding: 15px 0; /*0 value used to prevent transition coming from right*/
+    
+}
+
+.logo img
+{
+    height: 100px;
+    float: left;
+    margin-top: 30px;
+}
+
+.btn
+{
+    
+    border: 1px solid #e67e22;
+    padding: 10px 30px;
+    color: #e67e22;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+
+.button-awesome
+{
+    margin-top: 40px;
+}
+
+.btn-half
+{
+    background-color: #e67e22;
+    color: white;
+}
+
+.btn-full:hover
+{
+    background-color: #e67e22;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+.copy
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+
+h3:after
+{
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.features h3
+{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.arranging
+{
+    text-align: justify;
+}
+
+.features i
+{
+    font-size: 40px;
+    color: #e67e22;
+    margin-left: 45%;
+    
+}
+
+.features h4
+{
+    /*margin-left: 40px;*/
+    text-align: center;
+}
+
+.meal-showcase
+{
+    list-style: none;
+    width: 100%;
+}
+
+.meal-showcase li
+{
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.meal-photo
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.meal-photo img
+{
+    width: 100%;
+    height: auto;
+    transform: scale(1.0);
+    transition: all 0.5s;
+}
+
+.meal-photo img:hover
+{
+    transform: scale(1.05);
+}
+
+.meal
+{
+    margin-top: 80px;
+}
+
+.pic img
+{
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 50px;
+     
+}
+
+.works-step
+{
+    margin-top: 50px;
+    
+}
+
+.works-step div
+{
+    border: 1px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.works-step img
+{
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.clearfix
+{
+    zoom: 1;
+}
+
+.clearfix:after
+{
+    visibility: hidden;
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+.mobile
+{
+    margin-top: 60px;
+}
+
+.cities
+{
+    margin-top: 100px;
+}
+
+.cities img
+{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.cities i
+{
+    color: #e67e22;
+}
+
+.testimonials
+{
+    margin-top: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/back-customers.jpg);
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color: white;
+    background-attachment: fixed;
+}
+
+.testimonials cite img
+{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonials p
+{
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 20px;
+}

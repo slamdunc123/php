@@ -1,0 +1,54 @@
+{  
+    "animals":
+    [
+        {
+            "species": "cat",
+            "name": "lion",
+            "size": "large",
+            "location":"africa"
+        },
+        {
+            "species": "cat",
+            "name": "cheetah",
+            "size": "medium",
+            "location":"africa"
+        },
+        {
+            "species": "cat",
+            "name": "puma",
+            "size": "large",
+            "location":"south america"
+        },
+        {
+            "species": "cat",
+            "name": "ocelot",
+            "size": "small",
+            "location":"south america"
+        },
+        {
+            "species": "dog",
+            "name": "wolf",
+            "size": "large",
+            "location":"north america"
+        },
+        {
+            "species": "dog",
+            "name": "coyote",
+            "size": "medium",
+            "location":"north america"
+        },
+        {
+            "species": "dog",
+            "name": "fox",
+            "size": "medium",
+            "location":"europe"
+        },
+        {
+            "species": "dog",
+            "name": "dingo",
+            "size": "large",
+            "location":"australia"
+        }
+
+    ]
+}

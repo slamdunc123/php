@@ -1,0 +1,426 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-Jan-2018, 21:42:35
+    Author     : slamdunc
+*/
+
+/*reset - start*/
+
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+/*reset - end*/
+
+/*body - start*/
+
+body
+{
+    overflow-y: scroll;
+    overflow-x: hidden;  
+}
+
+p {
+    text-indent: 2%;
+    text-align: justify;
+    line-height: 150%;
+    padding: 2%;
+}
+
+/*body - end*/
+
+/*header - start*/
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/cheetah_3.jpg);
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*navbar - start*/
+
+.navbar {
+    background-color: black;
+    padding: 15px 20px 20px 20px;
+}
+
+.container-fluid {
+    background-color: black;
+    padding: 15px 0px 20px 0px;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: lightgray; 
+    background-color: #444444;
+}
+
+.navbar .navbar-nav li a {
+  color: white; 
+  background-color: black;
+  margin: 0;
+  padding: 8px;
+}
+
+.navbar-brand {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.navbar-brand:hover {
+    color: lightgray;
+}
+
+.navbar-brand i.fa.fa-camera{
+    color: yellow;
+    font-size: 40px;
+}
+
+.navbar-header i {
+    font-size: 50px;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+}
+
+/*navbar - end*/
+
+/*header content - start*/
+  
+.hero-text
+{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    margin-top: 200px;
+}
+
+.header-buttons a
+{
+    border: 2px solid black;
+    padding: 10px 30px; /*padding: top/right px bottom/left px*/
+    margin-right: 6px;
+    margin-bottom: 10px;
+    color: white;
+    transition: all 0.5s ease-in;    
+}
+
+.header-buttons a.btn-full
+
+{
+   background-color: black;
+   color: white;
+}
+
+.header-buttons a.btn-half:hover
+{
+   background-color: black;
+   color: white;
+}
+
+/*header content - end*/
+
+/*header - end*/
+
+/*one column section - start*/
+
+.one-column {
+    background-color: white;    
+    color: black;
+    /*border: 1px solid;*/
+ }
+
+.one-column #col1 {
+   background-color: none;
+   margin-bottom: 10px;
+}
+
+.one-column #col1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.one-column #liInfo {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.one-column i {
+    background-color: black;
+    border: none;
+}
+
+.one-column #liBtn {
+    background-color: black;
+    border: black;
+}
+
+.one-column #liBtn:focus {
+    outline: none;
+}
+
+/*one column section - end*/
+
+/*two column section- start*/
+
+.two-column {
+    background-color: black;
+    color: white;
+    /*border: 1px solid;*/
+    padding-top: 125px;
+}
+
+.two-column #col1 {
+    background-color: none;
+    margin-bottom: 10px;
+}
+
+.two-column #col2 {
+    background-color: none;
+    margin-bottom: 10px;
+}
+
+/*two column section - end*/
+
+/*three column section - start*/
+
+.three-column .container-fluid{
+    background-color: white;
+   
+}
+.three-column  .row {
+    background-color: white;
+    color: black;
+}
+
+.three-column {
+    background-color: white;
+    color: black;
+    /*border: 1px solid;*/
+    padding-top: 125px;
+}
+
+.three-column #col1 {
+    background-color: none;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.three-column #col2 {
+    background-color: none;
+    margin-bottom: 10px;
+}
+
+.three-column #col3 {
+    background-color: none;
+    margin-bottom: 10px;
+}
+
+.three-column  #form {
+    background-color: white;
+    color: black;
+}
+
+.three-column h5 {
+    text-align: center;
+}
+
+/*three column section - end*/
+
+/*four column section - start*/
+
+.four-column {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/lion_2.jpg);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    /*border: 1px solid;*/
+}
+
+.four-column #col1 {
+    background-color: none;
+    margin-bottom: 10px;
+}
+
+.four-column #col2 {
+    background-color: none;
+    margin-bottom: 10px;
+}
+
+.four-column #col3 {
+    background-color: none;
+    margin-bottom: 10px;
+}
+
+.four-column #col4 {
+    background-color: none;
+    margin-bottom: 10px;
+}
+
+/*four column section - end*/
+
+/*six column section - start*/
+
+.six-column .container-fluid {
+    background-color: white;
+}
+
+.six-column .col-md-2 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.six-column img {
+    width: 200px;
+    height: 175px;
+    transition: 1s;
+    padding: 5px;
+}
+
+.six-column p {
+   text-align: justify;
+   text-transform: capitalize;
+   font-size: small;
+   text-indent: 0;
+}
+  
+.six-column i {
+   background-color: white;
+   border: none; 
+}
+
+.six-column .catClass, .catClass:focus {
+    background-color: white;
+    border: white;
+    display: block;
+    outline: none;
+    margin: auto;
+}
+
+/*six column section - end*/
+
+/*carousel section - start*/
+
+.carousel-section {
+    background-color: white;
+    color: white;
+    /*border: 1px solid;*/
+ }
+ 
+ .carousel-section .container-fluid .row {
+     background: black;
+ }
+
+.carousel-section #col1 {
+   background-color: black;
+   margin-bottom: 10px;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+    color: white;
+}
+
+.carousel-inner img {
+    width: 55%;
+    margin: auto;
+    /*border: 3px solid white;*/ 
+    border-radius: 0;
+}
+
+.carousel-inner h3 {
+    font-weight: bold;
+}
+
+.carousel-control { 
+    background: none !important; 
+    filter: none !important; 
+    progid: none !important; 
+}
+
+ol.carousel-indicators li {
+  background-color: black;
+  border: 0px solid;
+}
+ol.carousel-indicators .active {
+  background-color: black;
+  border: 0px solid;
+}
+
+.item .carousel-caption {
+    color: whitesmoke;
+ }
+
+/*carousel section - end*/
+
+/*footer - start*/
+
+.footer {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    /*border: 1px solid;*/
+}
+
+.social {
+    list-style: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: black;
+}
+
+.social i:hover {
+    color: darkslategray;
+}
+
+/*footer - end*/
+
+/*footer socket - start*/
+
+.footer-socket {
+    background-color: white;
+    margin-bottom: 10px;
+    /*border: 1px solid;*/
+}
+
+/*footer socket - end*/
+
+/*gallery - start*/
+
+.gallery img {
+    width: 200px;
+    height: 175px;
+    transition: 1s;
+    padding: 5px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/*gallery - end*/
+
