@@ -12,7 +12,7 @@
 						<div class="card-body">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<p class="card-text">Please provide your login credentials.</p>
-								<form method="post" action="index.php">							
+								<form method="post" action="index.php">
 								<fieldset>
 
 								<div class="form-group">
@@ -31,7 +31,7 @@
 								</p> -->
 
 								</fieldset>
-								</form>  
+								</form>
 
 						</div>
 				</div>
@@ -63,10 +63,12 @@
 						</div>
 				</div>
 			</div>
-				
+
 		</div>
-		
+
+		<?php include 'contactForm.php' ?>
+
 	</div>
-   
+
 
 <?php include('footer.php') ?>

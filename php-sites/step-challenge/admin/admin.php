@@ -1,4 +1,4 @@
-<?php 
+<?php
 include('../functions.php');
 
 if (!isAdmin()) {
@@ -17,13 +17,13 @@ if (isset($_GET['logout'])) {
 		<div class="jumbotron">
 			<h2>Step Challenge - Admin</h2>
 		</div>
-		
+
 		<!-- notification message -->
 		<?php if (isset($_SESSION['success'])) : ?>
 			<div class="error success" >
 				<h3>
-					<?php 
-						echo $_SESSION['success']; 
+					<?php
+						echo $_SESSION['success'];
 						unset($_SESSION['success']);
 					?>
 				</h3>
@@ -39,7 +39,7 @@ if (isset($_GET['logout'])) {
 					<strong><?php echo $_SESSION['user']['username']; ?></strong>
 
 					<small>
-						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
+						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i>
 						<br>
 						<a href="admin.php?logout='1'" style="color: red;">logout</a>
                        &nbsp; <a href="create_user.php"> + add user</a>
@@ -47,12 +47,12 @@ if (isset($_GET['logout'])) {
 
 				<?php endif ?>
 			</div>
-		</div>		
-	
+		</div>
+
 		<div class="row">
 
 			<div class="col-md-3">
-				
+
 				<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header"><?php echo $_SESSION['user']['username'] . "'s Steps" ?></div>
 						<div class="card-body">
@@ -70,7 +70,7 @@ if (isset($_GET['logout'])) {
 						<div class="card-body">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-							
+
 							<form method="post" action="admin.php">
 								<div class="form-group">
 										<label>Date</label><br>
@@ -89,7 +89,7 @@ if (isset($_GET['logout'])) {
 				<div class="login-error" style="color:red;">
 					<?php echo display_error(); ?><br>
 				</div>
-			</div>		
+			</div>
 
 			<div class="col-md-3">
 
@@ -117,9 +117,9 @@ if (isset($_GET['logout'])) {
 		</div>
 
 		<div class="row">
-			<div class="col-md-3">
-				
-				<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+			<div class="col-md-5">
+
+				<div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
 					<div class="card-header">Users</div>
 						<div class="card-body">
 							<!--<h4 class="card-title">Primary card title</h4>-->
@@ -128,7 +128,7 @@ if (isset($_GET['logout'])) {
 						</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 </div>
 
 <?php include('../footer.php') ?>

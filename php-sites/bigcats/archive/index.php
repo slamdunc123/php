@@ -9,7 +9,7 @@ and open the template in the editor.
 
 <html lang="en">
 
-    <!--head - start-->
+    <!--head - start-->    
 
     <head>
 
@@ -20,7 +20,7 @@ and open the template in the editor.
 
         <!--title - end-->
 
-        <!--meta - start-->
+        <!--meta - start-->    
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,12 +42,12 @@ and open the template in the editor.
 
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+        
         <!-- Favicon -->
         <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
         <link rel="icon" href="logo/favicon.ico" type="image/x-icon">
 
-        <!--links - end-->
+        <!--links - end--> 
 
     </head>
 
@@ -55,8 +55,8 @@ and open the template in the editor.
 
     <!--body - start-->
 
-    <body>
-
+    <body> 
+            
         <!--<div>TODO write content</div>-->
         <!--header - start-->
 
@@ -70,33 +70,33 @@ and open the template in the editor.
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-
-                            <a href="#" class="navbar-brand"><img id="logo" src="logo/paw-1290x485.png" alt="" /></a>
-
+                        
+                            <a href="#" class="navbar-brand"><img id="logo" src="logo/paw-1290x485.png" alt="" /></a> 
+                        
                         <!--<i class="fa fa-camera" aria-hidden="true"></i>-->
                     </div>
                     <div class="collapse navbar-collapse" id="navi">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="">HOME <!--<i class="fa fa-home" aria-hidden="true"></i>--></a></li>
+                        <li><a href="">HOME <!--<i class="fa fa-home" aria-hidden="true"></i>--></a></li>                        
                         <li><a href="#about">ABOUT <!--<i class="fa fa-cog" aria-hidden="true"></i>--></a></li>
                         <li><a href="#gallery">GALLERY <!--<i class="fa fa-camera" aria-hidden="true"></i>--></a></li>
                         <li><a href="#key-facts">KEY FACTS <!--<i class="fa fa-gift" aria-hidden="true"></i>--></a></li>
                         <li><a href="#biology">BIOLOGY <!--<i class="fa fa-play" aria-hidden="true"></i>--></a></li>
-                        <li><a href="#behaviour">BEHAVIOUR <!--<i class="fa fa-play" aria-hidden="true"></i>--></a></li>
-                        <li><a href="#taxonomy">TAXONOMY <!--<i class="fa fa-play" aria-hidden="true"></i>--></a></li>
+                        <li><a href="#behaviour">BEHAVIOUR <!--<i class="fa fa-play" aria-hidden="true"></i>--></a></li> 
+                        <li><a href="#taxonomy">TAXONOMY <!--<i class="fa fa-play" aria-hidden="true"></i>--></a></li> 
                         <li><a href="#contact">CONTACT <!--<i class="fa fa-phone" aria-hidden="true"></i>--></a></li>
                       </ul>
                     </div>
                 </div>
             </nav>
-
+  
             <script src="js/navBar.js">
-
+                
                 /*document.addEventListener('click', function(e) {
                    if (e.target.id == 'a') {
                       callback();
-
-
+                      
+                      
                     }
                 });
                 function callback(){
@@ -104,15 +104,15 @@ and open the template in the editor.
                   navi.style.display = "none";
                   exit;
                 };*/
-
+    
                 //var anchors = document.getElementsByTagName('a');
-
+                
                 /*var naviList = document.getElementById('navi');
                 var naviDrop = document.getElementById('aNavi');
                 naviDrop.addEventListener('click', drop, false);
                 naviList.addEventListener('click', list, false);
-
-
+                
+                
                 function drop (){
                     if(naviDrop.style.display === "none"){
                         naviDrop.style.display = "block";
@@ -120,59 +120,59 @@ and open the template in the editor.
                         naviDrop.data-toggle = "collapse";
                     }
                 }
-
-
+                
+    
                 function list() {
                     if(naviList.style.display === "none"){
                         naviList.style.display = "block";
                     } else{
                         naviList.style.display = "none";
-
+                        
                     }
-
+                    
                 }
-
-
-
+                
+                
+                
                //document.getElementsByTagName('a').addEventListener('click', callback,false);
-
-
-
+               
+               
+                
                 //function callback(){
                   //console.log("You clicked...");
                   //navi.style.display = "none";
                   //exit;
              // }*/
         </script>
-
-
+            
+            
             <div class="row">
                 <div class="col-md-12">
                     <div class="hero-text text-center">
-                        <h1><strong>an inside look into the world of the big cats</strong></h1>
-
+                        <h1>an inside look into the world of big cats</h1>
+                        
                     </div>
                     <!--<div class="header-buttons text-center">
                         <a href="" class="btn btn-full">GET IT NOW</a>
                         <a href="" class="btn btn-half">STARTS WORK <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-
+                        
                         <!--<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>-->
                     </div>-->
-
+                                        
                 </div>
-
-
+                
+         
         </header>
 
         <!--header - end-->
-
+        
         <!--two column section - start-->
 
         <section class="two-column text-center text-uppercase" id="about">
             <div class="container">
-                <div class="row">
+                <div class="row"> 
                     <h1>ABOUT US</h1>
-                    <!--<h3>Two Column Section</h3>-->
+                    <!--<h3>Two Column Section</h3>-->                                       
                         <div class="col-md-6" id="col1">
                             <!--<h5>Left</h5>-->
                             <p>
@@ -190,10 +190,10 @@ and open the template in the editor.
                             <p>
                                 Pellentesque accumsan ipsum id consequat sodales. Vivamus malesuada sem a sollicitudin facilisis. Donec turpis quam, tempus eget erat vel, pulvinar condimentum lorem. Sed mollis laoreet felis ut feugiat. Pellentesque sed arcu tortor. Suspendisse aliquet mi et viverra convallis. Sed porta lectus eget vestibulum sagittis. Aenean tempor nisi vel purus consequat accumsan. Maecenas libero dui, malesuada sit amet orci nec, ultricies congue massa. Integer molestie euismod magna.
                             </p>
-                        </div>
+                        </div>                           
                 </div>
                  <br>
-
+               
                 <br>
             </div>
         </section>
@@ -205,12 +205,12 @@ and open the template in the editor.
         <section class="carousel-section text-center text-uppercase" id="gallery">
             <div class="container">
                 <div class="row">
-                    <h1>GALLERY</h1>
-                        <!--<h3>Carousel</h3>-->
+                    <h1>GALLERY</h1>                    
+                        <!--<h3>Carousel</h3>-->                 
                                 <div class="col-md-12" id="col1">
-
-                                    <!--carousel - start-->
-
+                                    
+                                    <!--carousel - start-->  
+                        
                                         <div id="carousel-example-generic" class="carousel slide" data-ride="">
 
                                          <!-- Indicators (dot nav) - start-->
@@ -261,21 +261,21 @@ and open the template in the editor.
 
                                          <!-- Controls - next and prev buttons - end -->
 
-                                       </div>
+                                       </div>            
 
                                      <!--carousel - end-->
-                                </div>
+                                </div>                           
                 </div>
                 <br>
-
+                
                 <br>
             </div>
         </section>
 
         <!--carousel section - end-->
-
+               
         <!--six column section - start-->
-
+        
         <section class="six-column text-center text-uppercase" id="key-facts">
             <div class="container-fluid">
                 <div class="row">
@@ -288,7 +288,7 @@ and open the template in the editor.
                             <!--<button id="btn" onclick="myFunction(0)">Info <i class="fa fa-angle-down"></i></button>-->
                             <button data-no="0" class="catClass" id="catBtn0">Info <i class="fa fa-angle-down"></i></button>
                             <div id="catInfo0"></div>
-                        </div>
+                        </div>  
                         <div class="col-md-2" id="col2">
                             <h3>CHEETAH</h3>
                             <!--<h5>Left</h5>-->
@@ -296,7 +296,7 @@ and open the template in the editor.
                             <!--<button id="btn" onclick="myFunction(1)">Info <i class="fa fa-angle-down"></i></button>-->
                             <button data-no="1" class="catClass" id="catBtn1">Info <i class="fa fa-angle-down"></i></button>
                             <div id="catInfo1"></div>
-                        </div>
+                        </div> 
                         <div class="col-md-2" id="col3">
                             <h3>PUMA</h3>
                             <!--<h5>L Middle</h5>-->
@@ -304,15 +304,15 @@ and open the template in the editor.
                             <!--<button id="btn" onclick="myFunction(2)">Info <i class="fa fa-angle-down"></i></button>-->
                             <button data-no="2" class="catClass" id="catBtn2">Info <i class="fa fa-angle-down"></i></button>
                             <div id="catInfo2"></div>
-                        </div>
+                        </div> 
                         <div class="col-md-2" id="col4">
                             <h3>JAGUAR</h3>
-                            <!--<h5>R Middle</h5>-->
+                            <!--<h5>R Middle</h5>--> 
                             <img src="img/jaguar_6.jpg" alt=""/></br><br>
                             <!--<button id="btn" onclick="myFunction(3)">Info <i class="fa fa-angle-down"></i></button>-->
                             <button data-no="3" class="catClass" id="catBtn3">Info <i class="fa fa-angle-down"></i></button>
                             <div id="catInfo3"></div>
-                        </div>
+                        </div> 
                         <div class="col-md-2" id="col5">
                             <h3>LEOPARD</h3>
                             <!--<h5>Right</h5>-->
@@ -320,31 +320,31 @@ and open the template in the editor.
                             <!--<button id="btn" onclick="myFunction(4)">Info <i class="fa fa-angle-down"></i></button>-->
                             <button data-no="4" class="catClass" id="catBtn4">Info <i class="fa fa-angle-down"></i></button>
                             <div id="catInfo4"></div>
-                        </div>
+                        </div> 
                         <div class="col-md-2" id="col6">
                             <h3>TIGER</h3>
-                            <!--<h5>F Right</h5>-->
+                            <!--<h5>F Right</h5>--> 
                             <img src="img/tiger.jpg" alt=""/></br><br>
                             <!--<button id="btn" onclick="myFunction(5)">Info <i class="fa fa-angle-down"></i></button>-->
                             <button data-no="5" class="catClass" id="catBtn5">Info <i class="fa fa-angle-down"></i></button>
                             <div id="catInfo5"></div>
-                        </div>
-                </div>
+                        </div> 
+                </div> 
                  <br>
-
+                
                 <br>
-            </div>
+            </div>            
         </section>
-
+        
         <!--six column section - end-->
 
         <!--four column section - start-->
 
         <section class="four-column text-center text-uppercase" id="biology">
-            <div class="container">
+            <div class="container"> 
                 <div class="row">
                     <h1>BIOLOGY</h1>
-                    <!--<h3>Four Column Section</h3>-->
+                    <!--<h3>Four Column Section</h3>-->                       
                         <div class="col-md-3" id="col1">
                             <!--<h5>Left</h5>-->
                             <p>
@@ -381,20 +381,20 @@ and open the template in the editor.
                                 Pellentesque accumsan ipsum id consequat sodales. Vivamus malesuada sem a sollicitudin facilisis. Donec turpis quam, tempus eget erat vel, pulvinar condimentum lorem. Sed mollis laoreet felis ut feugiat. Pellentesque sed arcu tortor. Suspendisse aliquet mi et viverra convallis. Sed porta lectus eget vestibulum sagittis. Aenean tempor nisi vel purus consequat accumsan. Maecenas libero dui, malesuada sit amet orci nec, ultricies congue massa. Integer molestie euismod magna.
                             </p>
                         </div>
-                </div>
+                </div> 
                  <br>
-
+                
                 <br>
             </div>
         </section>
 
         <!--four column section - end-->
-
+        
         <!--two column section - start-->
 
         <section class="two-column text-center text-uppercase" id="behaviour">
             <div class="container">
-                <div class="row">
+                <div class="row"> 
                     <h1>BEHAVIOUR</h1>
                     <!--<h3>Two Column Section</h3>-->
                         <div class="col-md-8" id="col1">
@@ -402,7 +402,7 @@ and open the template in the editor.
                                 <div class="gallery">
                                     <!--<a href="img/puma_2.jpg"><img src="img/puma_2.jpg" alt=""/></a>
                                     <a ghref="img/ocelot.jpg"><img src="img/ocelot.jpg" alt=""/></a>
-                                    <a ghref="img/cheetah_2.jpg"><img src="img/cheetah_2.jpg" alt=""/></a>
+                                    <a ghref="img/cheetah_2.jpg"><img src="img/cheetah_2.jpg" alt=""/></a> 
                                     <a ghref="img/lion.jpg"><img src="img/lion.jpg" alt=""/></a>
                                     <a ghref="img/puma.jpg"><img src="img/puma.jpg" alt=""/></a>
                                     <a ghref="img/cheetah.jpg"><img src="img/cheetah.jpg" alt=""/></a>-->
@@ -415,7 +415,7 @@ and open the template in the editor.
                                             echo "<img src='$img' height='' width='' /> ";
                                         }
                                     ?>
-
+                                    
                                 </div>
                         </div>
                         <div class="col-md-4" id="col2">
@@ -426,23 +426,23 @@ and open the template in the editor.
                             <p>
                                 Pellentesque accumsan ipsum id consequat sodales. Vivamus malesuada sem a sollicitudin facilisis. Donec turpis quam, tempus eget erat vel, pulvinar condimentum lorem. Sed mollis laoreet felis ut feugiat. Pellentesque sed arcu tortor. Suspendisse aliquet mi et viverra convallis. Sed porta lectus eget vestibulum sagittis. Aenean tempor nisi vel purus consequat accumsan. Maecenas libero dui, malesuada sit amet orci nec, ultricies congue massa. Integer molestie euismod magna.
                             </p>
-                        </div>
+                        </div>                           
                 </div>
                  <br>
-
+                
                 <br>
             </div>
         </section>
 
         <!--two column section - end-->
-
+                        
         <!--one column section - start-->
-
+       
         <section class="one-column text-center text-uppercase" id="taxonomy">
             <div class="container">
-                <div class="row">
+                <div class="row"> 
                     <h1>TAXONOMY</h1>
-                    <!--<h3>One Column Section</h3> -->
+                    <!--<h3>One Column Section</h3> -->                                      
                         <div class="col-md-12" id="col1">
                             <!--<h5>Right</h5>-->
                             <!--<p>
@@ -451,40 +451,36 @@ and open the template in the editor.
                             <p>
                                 Pellentesque accumsan ipsum id consequat sodales. Vivamus malesuada sem a sollicitudin facilisis. Donec turpis quam, tempus eget erat vel, pulvinar condimentum lorem. Sed mollis laoreet felis ut feugiat. Pellentesque sed arcu tortor. Suspendisse aliquet mi et viverra convallis. Sed porta lectus eget vestibulum sagittis. Aenean tempor nisi vel purus consequat accumsan. Maecenas libero dui, malesuada sit amet orci nec, ultricies congue massa. Integer molestie euismod magna.
                             </p>-->
-
+                            
                            <!--<a href="javascript:loadDoc()" id="demo"><i class="fa fa-angle-down"></i></a>-->
                            <button id="liBtn"><i class="fa fa-angle-down"></i></button>
                             <div id="liInfo"></div>
+                            
 
-
-
-                        </div>
+                            
+                        </div>                                           
                 </div>
                  <br>
-
+                
                 <br>
             </div>
         </section>
 
         <!--one column section - end-->
-
+        
         <!--three column section - start-->
 
         <section class="three-column text-center text-uppercase" id="contact">
             <div class="container">
-                <div class="row">
+                <div class="row"> 
                     <h1>CONTACT US</h1>
-                    <div class="col-md-4" id="col1">
-                      <?php include 'contactForm.php' ?><br><br>
-
-                    </div>
-                    <!--<h3>Three Column Section</h3>-->
-                        <!-- <div class="col-md-3" id="col1"> -->
+                    <!--<h3>Three Column Section</h3>-->                 
+                        <div class="col-md-4" id="col1">
                            <!--<h5>Left</h5>-->
-                           <!-- <h3>Contact Us</h3>
+                           <h3>Contact Us</h3>
                             <form id="form" method="post" action="index.php#form" onsubmit="return validate();">
                                 <div class="form-group">
-                                <input type="text" name="name" id="name" value="" class="form-control" placeholder="Name"/><br>
+                                <input type="text" name="name" id="name" value="" class="form-control" placeholder="Name"/><br> 
                                 </div>
                                 <div class="form-group">
                                 <input type="text" name="email" id="email" value="" class="form-control" placeholder="Email"/><br>
@@ -496,15 +492,15 @@ and open the template in the editor.
                                 <input type="text" name="age" id="age" value="" class="form-control" placeholder="Age"/><br>
                                 </div>
                                 <div class="checkbox">
-                                <input type="checkbox" name="check" /> i am human
+                                <input type="checkbox" name="check" /> i am human   
                                 </div>
-                                <input type="submit" name="submit" class="btn btn-default" />
+                                <input type="submit" name="submit" class="btn btn-default" /> 
                             </form>
                            <div id="errors">
-                           </div>
-                           <script src="contactFormValidation.js" type="text/javascript"></script> -->
-                           <?php //include 'contactFormConnection.php';?>
-
+                           </div>                                          
+                           <script src="contactFormValidation.js" type="text/javascript"></script>                                   
+                           <?php include 'contactFormConnection.php';?>                                 
+                                        
                            <!--
                            <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu venenatis est. Sed nec rutrum eros. Etiam faucibus mi id risus hendrerit cursus. Nulla fringilla, diam in bibendum porta, odio orci ornare lacus, ut ultricies sem dolor et ligula. Pellentesque interdum purus ullamcorper quam iaculis faucibus. Nulla vitae convallis eros. Ut urna turpis, faucibus at tortor a, dignissim aliquam erat. Ut laoreet justo eget quam vestibulum tincidunt sit amet et eros. Ut dapibus, velit ac sollicitudin dapibus, dolor mauris efficitur est, et convallis magna metus id risus. Nunc porta pharetra dolor nec ultrices.
@@ -512,26 +508,26 @@ and open the template in the editor.
                             <p>
                                 Pellentesque accumsan ipsum id consequat sodales. Vivamus malesuada sem a sollicitudin facilisis. Donec turpis quam, tempus eget erat vel, pulvinar condimentum lorem. Sed mollis laoreet felis ut feugiat. Pellentesque sed arcu tortor. Suspendisse aliquet mi et viverra convallis. Sed porta lectus eget vestibulum sagittis. Aenean tempor nisi vel purus consequat accumsan. Maecenas libero dui, malesuada sit amet orci nec, ultricies congue massa. Integer molestie euismod magna.
                             </p>
-
+                           
                            <h2>Contact Form</h2>
                            <p>Please contact us via the form below:</p>
                            <form action="" method="post">
                                <div class="form-group">
-                                   <input type="text" name="name" class="form-control" placeholder="your name" />
+                                   <input type="text" name="name" class="form-control" placeholder="your name" />                               
                                </div>
                                <div class="form-group">
-                                   <input type="text" name="email" class="form-control" placeholder="mail" />
+                                   <input type="text" name="email" class="form-control" placeholder="mail" />                                
                                </div>
                                <div class="form-group">
-                                   <textarea name="message" rows="5" class="form-control" placeholder="message..."></textarea>
+                                   <textarea name="message" rows="5" class="form-control" placeholder="message..."></textarea>                               
                                </div>
-                               <div class="checkbox">
-                                   <input type="checkbox" name="check" /> i am human
-                               </div>
+                               <div class="checkbox">                                   
+                                   <input type="checkbox" name="check" /> i am human                               
+                               </div>                               
                                    <input type="submit" name="submit" class="btn btn-default" value="send message">
-                           </form>
+                           </form> 
                            -->
-                      <!-- </div> -->
+                        </div>
                         <div class="col-md-4" id="col2">
                             <!--<h5>Middle</h5>-->
                             <p>
@@ -549,12 +545,10 @@ and open the template in the editor.
                             <p>
                                 Pellentesque accumsan ipsum id consequat sodales. Vivamus malesuada sem a sollicitudin facilisis. Donec turpis quam, tempus eget erat vel, pulvinar condimentum lorem. Sed mollis laoreet felis ut feugiat. Pellentesque sed arcu tortor. Suspendisse aliquet mi et viverra convallis. Sed porta lectus eget vestibulum sagittis. Aenean tempor nisi vel purus consequat accumsan. Maecenas libero dui, malesuada sit amet orci nec, ultricies congue massa. Integer molestie euismod magna.
                             </p>
-                        </div>
-
-
+                        </div>                           
                 </div>
                  <br>
-
+                
                 <br>
             </div>
         </section>
@@ -579,22 +573,22 @@ and open the template in the editor.
         <!--footer socket - start-->
 
         <footer class="footer-socket text-center">
-
+            
                 &copy; slamdunc website design
         </footer>
 
-        <!--footer socket - end-->
-
-        <!--external javascript - start-->
-
+        <!--footer socket - end-->  
+        
+        <!--external javascript - start-->  
+        
         <script src="js/lorumIpsum.js"></script>
         <script src="js/catData.js"></script>
-
-
+        
+        
         <!--external javascript - end-->
-
+        
     </body>
-
+        
     <!--body - end-->
 
 </html>

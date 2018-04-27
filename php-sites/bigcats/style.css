@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : 13-Jan-2018, 21:42:35
     Author     : slamdunc
 */
@@ -22,7 +22,7 @@ and open the template in the editor.
 body
 {
     overflow-y: scroll;
-    overflow-x: hidden;  
+    overflow-x: hidden;
 }
 
 p {
@@ -66,12 +66,12 @@ p {
 }
 
 .navbar .navbar-nav li a:hover {
-    color: lightgray; 
+    color: lightgray;
     background-color: #444444;
 }
 
 .navbar .navbar-nav li a {
-  color: white; 
+  color: white;
   background-color: black;
   margin: 0;
   padding: 8px;
@@ -103,7 +103,7 @@ p {
 /*navbar - end*/
 
 /*header content - start*/
-  
+
 .hero-text
 {
     color: white;
@@ -119,7 +119,7 @@ p {
     margin-right: 6px;
     margin-bottom: 10px;
     color: white;
-    transition: all 0.5s ease-in;    
+    transition: all 0.5s ease-in;
 }
 
 .header-buttons a.btn-full
@@ -142,7 +142,7 @@ p {
 /*one column section - start*/
 
 .one-column {
-    background-color: black;    
+    background-color: black;
     color: white;
     /*border: 1px solid;*/
     padding-top: 125px;
@@ -204,7 +204,7 @@ p {
 
 .three-column .container-fluid{
     background-color: white;
-   
+
 }
 .three-column  .row {
     background-color: white;
@@ -241,6 +241,14 @@ p {
 
 .three-column h5 {
     text-align: center;
+}
+
+.error {
+  color:red;
+}
+
+.success {
+  color:green;
 }
 
 /*three column section - end*/
@@ -292,11 +300,12 @@ p {
     padding-left: 5px;
 }
 
-.six-column img {
+.six-column .col-md-2 img {
     width: 200px;
     height: 175px;
     transition: 1s;
-    padding: 5px;
+    padding: 1px;
+    box-shadow: 5px 5px 5px #888;
 }
 
 .six-column p {
@@ -305,10 +314,10 @@ p {
    font-size: small;
    text-indent: 0;
 }
-  
+
 .six-column i {
    background-color: white;
-   border: none; 
+   border: none;
 }
 
 .six-column .catClass, .catClass:focus {
@@ -329,7 +338,7 @@ p {
     /*border: 1px solid;*/
     padding-top: 125px;
  }
- 
+
  .carousel-section .container-fluid .row {
      background: black;
  }
@@ -346,18 +355,23 @@ p {
 .carousel-inner img {
     width: 90%;
     margin: auto;
-    border: 3px solid white; 
+    border: 1px solid white;
     border-radius: 0;
+    transition: 1s;
+}
+
+.carousel img:hover {
+    transform: scale(1.1);
 }
 
 .carousel-inner h3 {
     font-weight: bold;
 }
 
-.carousel-control { 
-    background: none !important; 
-    filter: none !important; 
-    progid: none !important; 
+.carousel-control {
+    background: none !important;
+    filter: none !important;
+    progid: none !important;
 }
 
 ol.carousel-indicators li {
@@ -423,7 +437,9 @@ ol.carousel-indicators .active {
     width: 200px;
     height: 175px;
     transition: 1s;
-    padding: 5px;
+    padding: 1px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px #888;
 }
 
 .gallery img:hover {
@@ -431,4 +447,3 @@ ol.carousel-indicators .active {
 }
 
 /*gallery - end*/
-
