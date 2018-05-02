@@ -14,7 +14,7 @@
             while($row = $result->fetch_assoc()) {
                 //echo "id: " . $row["id"]. " - Name: " . $row["username"]. " " . $row["email"]. "<br>";
                 echo "<tr>";
-                echo "<td>" . $row["id"] . "</td><td>" . $row["username"] . "</td><td>" . $row["team"] . "</td><td><a href='update.php?id=<?php echo " . $row['id'] . "; ?>' class='bt btn-primary'>Edit</a></td></td><td><a href='update.php?id=<?php echo " . $row['id'] . "; ?>' class='bt btn-primary'>Delete</a></td>";
+                echo "<td> {$row["id"]} </td><td> {$row["username"]} </td><td> {$row["team"]} </td><td><a href='update_user.php?id={$row['id']}' class='bt btn-primary'>Update</a></td><td><a href='delete_user.php?id={$row['id']}' class='bt btn-primary'>Delete</a></td>";
                 echo "</tr>";
 
             }

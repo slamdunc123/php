@@ -1,11 +1,13 @@
 <?php
-
+//var_dump($_POST); //checkse to see what is being passed through $_POST
 // create php variables from form INPUT_POST
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
 $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
+
+//email sent successfully variable
 $success = "";
 
 // check php variables

@@ -42,7 +42,7 @@ if (isset($_GET['logout'])) {
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i>
 						<br>
 						<a href="admin.php?logout='1'" style="color: red;">logout</a>
-                       &nbsp; <a href="create_user.php"> + add user</a>
+                       &nbsp; <a href="manage_users.php">manage users</a><br><br>
 					</small>
 
 				<?php endif ?>
@@ -116,19 +116,6 @@ if (isset($_GET['logout'])) {
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-md-5">
-
-				<div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
-					<div class="card-header">Users</div>
-						<div class="card-body">
-							<!--<h4 class="card-title">Primary card title</h4>-->
-							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-							<?php include('../users.php') ?>
-						</div>
-				</div>
-			</div>
-		</div>
 </div>
 
 <?php include('../footer.php') ?>

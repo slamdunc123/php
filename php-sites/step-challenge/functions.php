@@ -1,4 +1,4 @@
-<?php 
+<?php
 // start the session - there can't be anything before the <?php tag else the header will fail
 session_start();
 
@@ -12,7 +12,7 @@ $email    = "";
 $team = "";
 $date = "";
 $steps = "";
-$errors   = array(); 
+$errors   = array();
 
 // call the register() function if register_btn is clicked
 if (isset($_POST['register_btn'])) {
@@ -33,17 +33,17 @@ function register(){
 	$password_2  =  e($_POST['password_2']);
 
 	// form validation: ensure that the form is correctly filled
-	if (empty($username)) { 
-		array_push($errors, "Username is required"); 
+	if (empty($username)) {
+		array_push($errors, "Username is required");
 	}
-	if (empty($email)) { 
-		array_push($errors, "Email is required"); 
+	if (empty($email)) {
+		array_push($errors, "Email is required");
 	}
-	if (empty($team)) { 
-		array_push($errors, "Team is required"); 
+	if (empty($team)) {
+		array_push($errors, "Team is required");
 	}
-	if (empty($password_1)) { 
-		array_push($errors, "Password is required"); 
+	if (empty($password_1)) {
+		array_push($errors, "Password is required");
 	}
 	if ($password_1 != $password_2) {
 		array_push($errors, "The two passwords do not match");
@@ -55,13 +55,13 @@ function register(){
 
 		if (isset($_POST['user_type'])) {
 			$user_type = e($_POST['user_type']);
-			$query = "INSERT INTO users (username, email, user_type, password, team) 
+			$query = "INSERT INTO users (username, email, user_type, password, team)
 					  VALUES('$username', '$email', '$user_type', '$password', '$team')";
 			mysqli_query($db, $query);
 			$_SESSION['success']  = "New user successfully created!!";
-			header('location: admin.php');
+			header('location: manage_users.php');
 		}else{
-			$query = "INSERT INTO users (username, email, user_type, password, team) 
+			$query = "INSERT INTO users (username, email, user_type, password, team)
 					  VALUES('$username', '$email', 'user', '$password', '$team')";
 			mysqli_query($db, $query);
 
@@ -70,7 +70,7 @@ function register(){
 
 			$_SESSION['user'] = getUserById($logged_in_user_id); // put logged in user in session
 			$_SESSION['success']  = "You are now logged in";
-			header('location: user.php');				
+			header('location: user.php');
 		}
 	}
 }
@@ -101,7 +101,7 @@ function display_error() {
 			}
 		echo '</div>';
 	}
-}	
+}
 
 function isLoggedIn()
 {
@@ -128,7 +128,7 @@ if (isset($_POST['login_btn'])) {
 function login(){
 	global $db, $username, $errors;
 
-	// grap form values
+	// grab form values
 	$username = e($_POST['username']);
 	$password = e($_POST['password']);
 
@@ -150,11 +150,11 @@ if (count($errors) == 0) {
     if (mysqli_num_rows($results) == 1) { // user found
         // check if user is admin or user and assign user to session
         $logged_in_user = mysqli_fetch_assoc($results);
-        if ($logged_in_user['user_type'] == 'admin') { //check if login is admin 
+        if ($logged_in_user['user_type'] == 'admin') { //check if login is admin
 
             $_SESSION['user'] = $logged_in_user; //assign user (all array values: id, userid, steps, date, created) to session
             $_SESSION['success']  = "You are now logged in";
-            header('location: admin/admin.php');		  
+            header('location: admin/admin.php');
         }else{
             $_SESSION['user'] = $logged_in_user; //assign user (all array values: id, userid, steps, date, created) to session
             $_SESSION['success']  = "You are now logged in";
@@ -204,11 +204,9 @@ function post(){
 		$query = "INSERT INTO posts (id, userid, steps, date, created) VALUES (NULL, {$_SESSION['user']['id']}, $steps, str_to_date('".$date."', '%Y-%c-%d'), CURRENT_TIMESTAMP)";
 		mysqli_query($db, $query);
 		}
-		
-		
-		
-	
-	
+
+
+
+
+
 }
-
-

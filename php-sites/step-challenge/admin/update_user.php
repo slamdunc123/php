@@ -1,33 +1,34 @@
-<!DOCTYPE html>
-<?php include 'db.php';
+<?php include '../functions.php';
 
 $id = $_GET['id'];
 
-$sql = "SELECT * FROM tasks WHERE id = '$id'";
+$sql = "SELECT * FROM users WHERE id = '$id'";
 $rows = $db->query($sql);
 
 $row = $rows->fetch_assoc();
 
 if(isset($_POST['update'])){ // if button name="update" is clicked
 
-  $task = $_POST['task']; // store input field name="task" into variable $task
+  $username = $_POST['username']; // store input field name="task" into variable $task
 
-  $sql = "UPDATE tasks SET task = '$task' WHERE id = '$id'"; // sql query to update variable $task value in task field of tasks database and store in $sql variable
+  $sql = "UPDATE `users` SET `username` = '$username' WHERE id = '$id'"; // sql query to update variable $task value in task field of tasks database and store in $sql variable
 
   $query = $db->query($sql);
   if($query){ // if $query == true then...
     //echo "<h1>Task Added Successfully</h1>";
-    header('location: index.php'); // go to index.php page
+    //echo 'query successful';
+    header('location: manage_users.php'); // go to index.php page
   }
 
 }
 //var_dump($row);
 
 ?>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>My ToDo List</title>
+    <title>Update User</title>
 
 <!-- styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -37,7 +38,7 @@ if(isset($_POST['update'])){ // if button name="update" is clicked
   <body>
 
 <div class="container">
-  <h1 class="text-center">My ToDo List</h1>
+  <h1 class="text-center">Update User</h1>
 
   <div class="row">
 
@@ -47,8 +48,8 @@ if(isset($_POST['update'])){ // if button name="update" is clicked
 
           <form method="post" action=""> <!-- ensure the form action is set to the correct page, in this case this page (could leave blank or delete the action="" altogether but don't put action="update.php")-->
             <div class="form-group">
-              <label for="">Task Name</label>
-              <input type="text" name="task" value="<?php echo $row['task']; ?>" class="form-control" required><br>
+              <label for="">User: </label> <?php echo $id ?>
+              <input type="text" name="username" value="<?php echo $row['username']; ?>" class="form-control" required><br>
             </div>
             <button type"submit" name="update" value="" class="btn btn-primary">Update</button> <!-- needs to be a button not input -->
           </form>

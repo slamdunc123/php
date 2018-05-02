@@ -4,9 +4,9 @@
 <div class="container">
 		<div class="jumbotron">
 			<h2>Step Challenge - Admin</h2>
-		</div>
-		<a href="admin.php">back</a><br><br>
-		<div class="row">
+		</div>	
+
+		<div class="row">		
 			<div class="col-md-4">
 
 				<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
@@ -14,7 +14,7 @@
 						<div class="card-body">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-							<form method="post" action="create_user.php">
+							<form method="post" action="create_user.php">							
 
 								<div class="form-group">
 									<label>Username</label><br>
@@ -48,14 +48,14 @@
 									<button type="submit" class="btn" name="register_btn"> + Create user</button>
 								</div>
 							</form>
-
+							
 						</div>
 				</div>
 				<div class="login-error" style="color:red;">
 					<?php echo display_error(); ?><br>
 				</div>
 			</div>
-
+			
 			<div class="col-md-4">
 
 				<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
@@ -79,12 +79,12 @@
 					</div>
 			</div>
 </div>
-
+			
 		</div>
-
+		
 	</div>
-
-
-
+	
+	
+	
 </body>
 </html>
