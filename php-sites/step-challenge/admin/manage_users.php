@@ -45,13 +45,13 @@
 									<input type="password" name="password_2">
 								</div>
 								<div class="form-group">
-									<button type="submit" class="btn" name="register_btn">Create user</button>
+									<button type="submit" class="btn" name="create_user_btn">Create</button>
 								</div>
 							</form>
 
 						</div>
 				</div>
-				<div class="login-error" style="color:red;">
+				<div class="">
 					<?php echo display_error(); ?><br>
 				</div>
 			</div>
@@ -63,16 +63,13 @@
 						<div class="card-body">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-							<?php include('../users.php') ?>
+							<?php include('users.php') ?>
 						</div>
 				</div>
 			</div>
 
 		</div>
 
-	</div>
-
-
-
-</body>
-</html>
+</div>
+	
+<?php include('../footer.php') ?>

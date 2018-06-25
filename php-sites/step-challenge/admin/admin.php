@@ -1,8 +1,10 @@
+<?php include('../functions.php') ?>
+<?php include('../header.php') ?>
+
 <?php
-include('../functions.php');
 
 if (!isAdmin()) {
-	$_SESSION['msg'] = "You must log in first";
+	//$_SESSION['msg'] = "You must log in first";
 	header('location: ../index.php');
 }
 
@@ -11,8 +13,9 @@ if (isset($_GET['logout'])) {
 	unset($_SESSION['user']);
 	header("location: ../index.php");
 }
+
 ?>
-<?php include('../header.php') ?>
+
 <div class="container">
 		<div class="jumbotron">
 			<h2>Step Challenge - Admin</h2>
@@ -30,16 +33,17 @@ if (isset($_GET['logout'])) {
 			</div>
 		<?php endif ?>
 
-		<!-- logged in user information -->
+<!-- logged in user information -->
 		<div class="profile_info">
 			<img src="../images/admin-75x75.png"  >
 
 			<div>
 				<?php  if (isset($_SESSION['user'])) : ?>
-					<strong><?php echo $_SESSION['user']['username']; ?></strong>
+					<strong><?php echo $_SESSION['user']['username'] . " - " . $_SESSION['user']['team']; ?></strong>
 
 					<small>
-						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i>
+						<!--uscfirst() function sets the first letter to uppercase-->
+						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
 						<a href="admin.php?logout='1'" style="color: red;">logout</a>
                        &nbsp; <a href="manage_users.php">manage users</a><br><br>
@@ -81,7 +85,7 @@ if (isset($_GET['logout'])) {
 										<input type="text" name="steps" value="<?php echo $steps; ?>">
 								</div>
 								<div class="form-group">
-										<button type="submit" class="btn" name="post_btn">Submit</button>
+										<button type="submit" class="btn" name="input_btn">Input</button>
 								</div>
 							</form>
 						</div>
@@ -110,7 +114,7 @@ if (isset($_GET['logout'])) {
 						<div class="card-body">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-							<?php include('../user-leaderboard.php') ?>
+							<?php include('../user_leaderboard.php') ?>
 						</div>
 				</div>
 			</div>

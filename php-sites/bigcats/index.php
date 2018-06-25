@@ -580,7 +580,7 @@ and open the template in the editor.
 
         <footer class="footer-socket text-center">
 
-                &copy; slamdunc website design
+                &copy; slamdunc website designs
         </footer>
 
         <!--footer socket - end-->

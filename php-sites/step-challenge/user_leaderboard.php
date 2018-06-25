@@ -1,10 +1,9 @@
-
 <!--user leaderboard table-->
 <table class="table table-hover">           
-            <tr>
-                <th scope="col">USER</th>
-                <th scope="col">STEPS</th>
-            </tr>          
+    <tr>
+        <th scope="col">USER</th>
+        <th scope="col">STEPS</th>
+    </tr>          
 <?php
     $sql = "SELECT username, SUM(steps) AS totalSteps FROM  users, posts WHERE users.id = userid GROUP BY username ORDER BY SUM(steps) DESC";
     $result = $db->query($sql);

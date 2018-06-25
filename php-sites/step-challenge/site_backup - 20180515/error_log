@@ -1,0 +1,407 @@
+[19-Apr-2018 10:44:41 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 10:44:41 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 10:44:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[19-Apr-2018 10:44:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 10:44:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:14
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 14
+[19-Apr-2018 10:44:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[19-Apr-2018 10:44:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[19-Apr-2018 10:45:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[19-Apr-2018 10:45:08 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[19-Apr-2018 10:45:08 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[19-Apr-2018 10:45:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[19-Apr-2018 10:45:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[19-Apr-2018 10:45:17 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[19-Apr-2018 10:45:17 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[19-Apr-2018 10:45:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[19-Apr-2018 10:45:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[19-Apr-2018 10:45:30 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[19-Apr-2018 10:45:30 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[19-Apr-2018 10:45:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[19-Apr-2018 10:45:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[19-Apr-2018 10:45:46 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[19-Apr-2018 10:45:46 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[19-Apr-2018 10:45:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[19-Apr-2018 10:45:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[19-Apr-2018 10:45:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[19-Apr-2018 16:48:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[19-Apr-2018 16:48:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[19-Apr-2018 16:49:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[19-Apr-2018 16:49:21 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[19-Apr-2018 16:49:21 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[19-Apr-2018 16:49:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[19-Apr-2018 16:51:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 16:52:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 16:52:43 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 16:52:47 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 16:53:06 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 16:53:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 16:53:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 16:53:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:03:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:03:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:10:38 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:10:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:10:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:10:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:16:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:17:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:17:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:17:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:17:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:17:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:17:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:17:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:17:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:17:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:17:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:17:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:17:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:17:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:30:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:30:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:30:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:30:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:30:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:30:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:34:57 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:35:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:35:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:35:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:35:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:35:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:35:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:35:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:35:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:36:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:36:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:36:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 17:36:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:36:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 17:43:07 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 17:43:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 17:43:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:23:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:23:19 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:23:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:23:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:23:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:23:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:23:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:23:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:23:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:33:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:33:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:33:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:33:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:33:23 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 10
+[19-Apr-2018 19:33:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 12
+[19-Apr-2018 19:33:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(68): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 10
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 12
+[19-Apr-2018 19:33:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(68): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 10
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 12
+[19-Apr-2018 19:33:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(68): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 10
+[19-Apr-2018 19:33:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 12
+[19-Apr-2018 19:33:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(68): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 10
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 12
+[19-Apr-2018 19:33:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(68): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 10
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 12
+[19-Apr-2018 19:33:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(68): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 10
+[19-Apr-2018 19:33:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 12
+[19-Apr-2018 19:33:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(68): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:33:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:33:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:33:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:33:30 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 10
+[19-Apr-2018 19:33:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 12
+[19-Apr-2018 19:33:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(68): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:47:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:47:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 3
+[19-Apr-2018 19:47:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 119
+[19-Apr-2018 19:47:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php:1) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php on line 7
+[19-Apr-2018 19:47:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(63): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 19:57:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(61): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 20:00:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(61): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 20:01:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(61): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[19-Apr-2018 20:02:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(61): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[20-Apr-2018 07:33:16 UTC] PHP Warning:  include(user-leaderboard.php): failed to open stream: No such file or directory in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php on line 62
+[20-Apr-2018 07:33:16 UTC] PHP Warning:  include(user-leaderboard.php): failed to open stream: No such file or directory in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php on line 62
+[20-Apr-2018 07:33:16 UTC] PHP Warning:  include(): Failed opening 'user-leaderboard.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/login.php on line 62
+[20-Apr-2018 07:36:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php:16
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(61): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/steps.php on line 16
+[28-Apr-2018 13:46:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[28-Apr-2018 13:47:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:47:16 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:47:16 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:47:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[28-Apr-2018 13:47:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:47:48 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:47:48 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:47:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[28-Apr-2018 13:47:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:47:55 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:47:55 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:47:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[28-Apr-2018 13:48:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:48:03 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:48:03 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:48:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[28-Apr-2018 13:51:56 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:51:56 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:51:56 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:51:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[28-Apr-2018 13:52:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:52:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[28-Apr-2018 13:52:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:52:17 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:52:17 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:52:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[28-Apr-2018 13:53:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'slamdunc_admin'@'localhost' to database 'stepchallenge' in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:53:42 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:53:42 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:53:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[28-Apr-2018 13:53:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'slamdunc_admin'@'localhost' to database 'stepchallenge' in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:53:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10
+[28-Apr-2018 13:53:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'slamdunc_admin'@'localhost' to database 'stepchallenge' in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 6
+[28-Apr-2018 13:53:59 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:53:59 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/functions.php on line 91
+[28-Apr-2018 13:53:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php:10
+Stack trace:
+#0 /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/index.php(50): include()
+#1 {main}
+  thrown in /home2/slamdunc/slamdunc.co.uk/php-sites/step-challenge/leaderboard.php on line 10

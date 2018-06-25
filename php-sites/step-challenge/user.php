@@ -1,5 +1,6 @@
-<?php //User Session Details 
-    include('functions.php');
+<?php include('functions.php') ?>
+
+<?php   //User Session Details 
     if (!isLoggedIn()) {
         $_SESSION['msg'] = "You must log in first";
         header('location: user.php');
@@ -29,7 +30,7 @@
 		<?php endif ?>
 		
         
-        <!-- logged in user information -->
+<!-- logged in user information -->
 		<div class="profile_info">
 			<img src="images/user-75x75.png"  >
 
@@ -83,7 +84,7 @@
 									<input type="text" name="steps" value="<?php echo $steps; ?>">
 							</div>
 							<div class="form-group">
-									<button type="submit" class="btn" name="post_btn">Submit</button>
+									<button type="submit" class="btn" name="input_btn">Input</button>
 							</div>
 						</form>
 					</div>
@@ -112,7 +113,7 @@
 					<div class="card-body">
 						<!--<h4 class="card-title">Primary card title</h4>-->
 						<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-						<?php include('user-leaderboard.php') ?>
+						<?php include('user_leaderboard.php') ?>
 					</div>
 			</div>
 		</div>

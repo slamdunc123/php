@@ -1,4 +1,5 @@
-
+<hr>
+       <div class="footer text-center">&copy; slamdunc website designs</div>
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
