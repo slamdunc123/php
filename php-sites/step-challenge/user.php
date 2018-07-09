@@ -84,6 +84,14 @@
 									<input type="text" name="steps" value="<?php echo $steps; ?>">
 							</div>
 							<div class="form-group">
+									<label>Ride</label><br>
+									<input type="text" name="ride" value="<?php echo $ride; ?>">
+							</div>
+							<div class="form-group">
+									<label>Swim</label><br>
+									<input type="text" name="swim" value="<?php echo $swim; ?>">
+							</div>
+							<div class="form-group">
 									<button type="submit" class="btn" name="input_btn">Input</button>
 							</div>
 						</form>

@@ -11,7 +11,7 @@ session_start();
 //===== DATABASE CONNECTION AND CHECK
 
 // connect to database and store in global variable
-$db = mysqli_connect('localhost', 'root', '', 'multi_login');
+$db = mysqli_connect('localhost', 'root', 'root', 'slamdunc_stepchallenge');
 
 // check database connection
 if(mysqli_connect_errno()){
@@ -25,6 +25,8 @@ $email    = "";
 $team = "";
 $date = "";
 $steps = "";
+$ride = "";
+$swim = "";
 $errors   = array();
 
 //=====
@@ -226,11 +228,13 @@ if (isset($_POST['input_btn'])) {
 
 // input steps function
 function input(){
-	global $db, $date, $steps, $errors;
+	global $db, $date, $steps, $ride, $swim, $errors;
 
 	// grab form values
 	$date = $_POST['date'];
 	$steps = $_POST['steps'];
+	$ride = $_POST['ride'];
+	$swim = $_POST['swim'];
 
 	// form validation
 	if (empty($date)) {
@@ -239,10 +243,24 @@ function input(){
 	if (empty($steps)) {
 		array_push($errors, "Steps are required");
 	}
+	if (empty($ride)) {
+		array_push($errors, "Ride distance are required");
+	}
+	if (empty($swim)) {
+		array_push($errors, "Swim distance are required");
+	}
 
 	// attempt insert if no errors on form
 	if (count($errors) == 0) {
-		$query = "INSERT INTO posts (id, userid, steps, date, created) VALUES (NULL, {$_SESSION['user']['id']}, $steps, str_to_date('".$date."', '%Y-%c-%d'), CURRENT_TIMESTAMP)";
+		$query = "INSERT INTO posts (id, userid, steps, ride, swim, date, created) VALUES (NULL, {$_SESSION['user']['id']}, $steps, $ride, $swim, str_to_date('".$date."', '%Y-%c-%d'), CURRENT_TIMESTAMP)";
 		mysqli_query($db, $query);
+
+		// reset form values
+		$date = '';
+		$steps = '';
+		$ride = '';
+		$swim = '';
 		}
+
+
 }
