@@ -1,9 +1,12 @@
 <?php include('functions.php') ?>
 <?php include('header.php') ?>
-	<div class="container">
-		<div class="jumbotron">
-			<h2>Step Challenge</h2>
+
+		<div class="hero-image">
+			<div class="hero-text">
+				<h1>Step Challenge</h1>
+			</div>
 		</div>
+	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
 
@@ -64,10 +67,10 @@
 			</div>
 
 		</div>
-
+		
 		<?php include 'contactForm.php' ?>
-
 	</div>
+	
 
 
 <?php include('footer.php') ?>
