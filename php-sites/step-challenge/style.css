@@ -35,3 +35,11 @@ body, html {
   color: white;
 }
 
+.card-header {
+  font-size: small;
+}
+
+td {
+  font-size: small;
+}
+

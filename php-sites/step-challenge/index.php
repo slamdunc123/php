@@ -37,8 +37,11 @@
 
 						</div>
 				</div>
+				
 				<div class="">
-					<?php echo display_error(); ?><br>
+					<?php 
+					echo display_error(); 
+					?><br>
 				</div>
 			</div>
 

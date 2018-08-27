@@ -1,11 +1,20 @@
 <?php
 //var_dump($_POST); //checkse to see what is being passed through $_POST
 // create php variables from form INPUT_POST
-$firstname = $_POST['firstname'];
-$lastname = $_POST['lastname'];
-$email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+
+//using isset()
+
+$firstname = isset($_POST['firstname']) ? $_POST['firstname'] : '';
+$lastname = isset($_POST['lastname']) ? $_POST['lastname'] : '';
+$email = isset($_POST['email']) ? $_POST['email'] : '';
+$subject = isset($_POST['subject']) ? $_POST['subject'] : '';
+$message = isset($_POST['message']) ? $_POST['message'] : '';
+
+// $firstname = $_POST['firstname'];
+// $lastname = $_POST['lastname'];
+// $email = $_POST['email'];
+// $subject = $_POST['subject'];
+// $message = $_POST['message'];
 
 //email sent successfully variable
 $success = "";

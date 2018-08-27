@@ -40,11 +40,11 @@
 			//echo "id: " . $row["id"]. " - Name: " . $row["username"]. " " . $row["email"]. "<br>";
 			echo "<tr>";
 			if (($row["steps"] != $hSteps[0]) && ($row["steps"] != $lSteps[0])){
-				echo "<td> </td><td>" . date('d-m-Y', strtotime($row['date'])) . "</td><td>" . $row["steps"] . "</td>"; //converts date from Y-c-d format as stored in posts table to d-m-Y 
+				echo "<td> </td><td>" . date('d-M-Y', strtotime($row['date'])) . "</td><td>" . $row["steps"] . "</td>"; //converts date from Y-c-d format as stored in posts table to d-m-Y 
 			}elseif($row["steps"] == $hSteps[0]){
-				echo "<td><img src='images/thumb_up.png' alt='highest' width='30px' height='30px'></td><td>" . date('d-m-Y', strtotime($row['date'])) . "</td><td>" . $row["steps"] . "</td>"; //converts date from Y-c-d format as stored in posts table to d-m-Y 
+				echo "<td><img src='images/thumb_up.png' alt='highest' width='30px' height='30px'></td><td>" . date('d-M-Y', strtotime($row['date'])) . "</td><td>" . $row["steps"] . "</td>"; //converts date from Y-c-d format as stored in posts table to d-m-Y 
 			}elseif($row["steps"] == $lSteps[0]){
-				echo "<td><img src='images/thumb_down.png' alt='lowest' width='30px' height='30px'></td><td>" . date('d-m-Y', strtotime($row['date'])) . "</td><td>" . $row["steps"] . "</td>"; //converts date from Y-c-d format as stored in posts table to d-m-Y 
+				echo "<td><img src='images/thumb_down.png' alt='lowest' width='30px' height='30px'></td><td>" . date('d-M-Y', strtotime($row['date'])) . "</td><td>" . $row["steps"] . "</td>"; //converts date from Y-c-d format as stored in posts table to d-m-Y 
 			}
 			echo "</tr>";
 		}

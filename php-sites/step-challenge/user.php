@@ -15,44 +15,50 @@
 <div class="container">
 		<div class="jumbotron">
 			<h2>Step Challenge</h2>
-		</div>
-		
-		<!-- notification message -->
-		<?php if (isset($_SESSION['success'])) : ?>
-			<div class="error success" >
-				<h3>
-					<?php 
-						echo $_SESSION['success']; 
-						unset($_SESSION['success']);
-					?>
-				</h3>
+			
+			<!-- notification message -->
+			<?php if (isset($_SESSION['success'])) : ?>
+				<div class="error success" >
+					<h6>
+						<?php 
+							echo $_SESSION['success']; 
+							unset($_SESSION['success']);
+						?>
+					</h6>
+				</div>
+			<?php endif ?>
+
+			<!-- logged in user information -->
+			<div class="profile_info">
+				<img src="images/user-75x75.png"  >
+
+				<div>
+					<?php  if (isset($_SESSION['user'])) : ?>
+						<strong><?php echo $_SESSION['user']['username'] . " - " . $_SESSION['user']['team']; ?></strong>
+
+						<small>
+							<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
+							<br>
+							<a href="index.php?logout='1'" style="color: red;">logout</a>
+						</small>
+
+					<?php endif ?>
+				</div>
 			</div>
-		<?php endif ?>
+		</div>
+
+		
+		
+		
 		
         
-<!-- logged in user information -->
-		<div class="profile_info">
-			<img src="images/user-75x75.png"  >
 
-			<div>
-				<?php  if (isset($_SESSION['user'])) : ?>
-					<strong><?php echo $_SESSION['user']['username'] . " - " . $_SESSION['user']['team']; ?></strong>
-
-					<small>
-						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
-						<br>
-						<a href="index.php?logout='1'" style="color: red;">logout</a>
-					</small>
-
-				<?php endif ?>
-			</div>
-		</div><br>
 
 
 <!--Steps User Record-->   
 
 	<div class="row">
-		<div class="col-md-3">
+		<div class="col-md-4">
 
 			<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
 				<div class="card-header"><?php echo $_SESSION['user']['username'] . "'s Steps" ?></div>
@@ -66,7 +72,7 @@
 
 <!--Steps Input Form-->   
 
-		<div class="col-md-3">
+		<div class="col-md-4">
 
 			<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
 				<div class="card-header">Input Steps</div>
@@ -102,7 +108,9 @@
 				</div>
 		</div>	
 
-		<div class="col-md-3">
+<!--Steps Team Leaderboard-->  
+
+		<div class="col-md-4">
 
 			<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
 				<div class="card-header">Team Leaderboard</div>
@@ -112,9 +120,10 @@
 						<?php include('leaderboard.php') ?>
 					</div>
 			</div>
-			</div>
+			
 
-			<div class="col-md-3">
+<!--Steps User Leaderboard-->  
+			
 
 			<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
 				<div class="card-header">User Leaderboard</div>
