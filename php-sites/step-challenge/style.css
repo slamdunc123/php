@@ -18,7 +18,7 @@ body, html {
 
 .hero-image {
   height: 50%;
-  background-image: url(/images/running_shoes-1200x700.png);
+  background-image: url(images/running_shoes-1200x700.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,5 +41,6 @@ body, html {
 
 td {
   font-size: small;
+  font-weight: bold;
 }
 

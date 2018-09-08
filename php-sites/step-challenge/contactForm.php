@@ -4,9 +4,9 @@
 <div class="row">
   			<div class="col-md-4">
 
-  				<div class="card text-white bg-primary mb-3" style="max-width: 26rem;">
-  					<div class="card-header">Contact Form</div>
-  						<div class="card-body">
+  				<div class="card border-primary mb-3" style="max-width: 26rem;">
+  					<div class="card-header text-white bg-primary">Contact Form</div>
+  						<div class="card-body text-primary bg-white">
   							<!--<h4 class="card-title">Primary card title</h4>-->
   							<p class="card-text">Please fill in the details below.</p>
                   <form class="" id="contact-form" action="<?php echo $_SERVER['PHP_SELF']; ?>#contact-form" method="post">
@@ -42,7 +42,7 @@
 
 
 
-                  <button type="submit" name="submit" class="btn btn-default">Send</button>
+                  <button class="btn btn-primary" type="submit" name="submit" class="btn btn-default">Send</button>
   								</fieldset>
   								</form>
 
