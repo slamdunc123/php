@@ -12,7 +12,7 @@
 
      <!-- CSS -->
      <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 
     <title>Step Challenge</title>
 	
