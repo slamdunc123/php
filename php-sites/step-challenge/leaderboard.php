@@ -16,9 +16,9 @@
                 if($count==1){
                     $pos = '<div class="medal"><img src="images/gold.png" alt="gold" width="30px" height="30px"></div>';
                 }elseif($count==2){
-                    $pos = '<div class="medal"><img src="images/silver.png" alt="gold" width="30px" height="30px"></div>';
+                    $pos = '<div class="medal"><img src="images/silver.png" alt="silver" width="30px" height="30px"></div>';
                 }elseif($count==3){
-                    $pos = '<div class="medal"><img src="images/bronze.png" alt="gold" width="30px" height="30px"></div>';
+                    $pos = '<div class="medal"><img src="images/bronze.png" alt="bronze" width="30px" height="30px"></div>';
                 }else{
                     $pos = '';
                 }
