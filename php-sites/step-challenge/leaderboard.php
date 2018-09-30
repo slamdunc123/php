@@ -24,7 +24,7 @@
                 }
                 //echo "id: " . $row["id"]. " - Name: " . $row["username"]. " " . $row["email"]. "<br>";
                 echo "<tr>";
-                echo "<td>" . $pos ." </td><td>" . $row["team"] . "</td><td>" . $row["totalSteps"] . "</td>";
+                echo "<td>" . $pos ." </td><td><div class='card-text'>" . $row["team"] . "</div></td><td><div class='card-text'>" . $row["totalSteps"] . "</div></td>";
                 echo "</tr>";
                 $count++;
             }
