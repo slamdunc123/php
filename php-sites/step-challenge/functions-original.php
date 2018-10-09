@@ -10,20 +10,8 @@ session_start();
 
 //===== DATABASE CONNECTION AND CHECK
 
-$site = 'dev';
-
-if ($site === 'prod'){
-	// connect to database
-	$db = mysqli_connect('localhost', 'slamdunc_admin', 'PHPb0bbins1', 'slamdunc_stepchallenge');
-	// $db = new PDO('mysql:host=localhost;dbname=slamdunc_stepchallenge;charset=utf8', 'slamdunc_admin', 'PHPb0bbins1');
-	//$db2 = mysqli_connect('localhost', 'root', '', 'multi_login'); //repetition here - used in users.php - alternative is to close $db - not sure of best way
-} 
-elseif ($site === 'dev'){
-	// connect to database
-	$db = mysqli_connect('localhost', 'root', 'root', 'slamdunc_stepchallenge');
-	// $db = new PDO('mysql:host=localhost;dbname=slamdunc_stepchallenge;charset=utf8', 'root', 'root');
-	//$db2 = mysqli_connect('localhost', 'root', '', 'multi_login'); //repetition here - used in users.php - alternative is to close $db - not sure of best way
-}
+// connect to database and store in global variable
+$db = mysqli_connect('localhost', 'root', 'root', 'slamdunc_stepchallenge');
 
 // check database connection
 if(mysqli_connect_errno()){
