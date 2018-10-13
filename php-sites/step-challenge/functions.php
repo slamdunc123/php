@@ -5,7 +5,11 @@
 // start the session - there can't be anything before the <?php tag else the header will fail
 session_start();
 
-//=====
+//===== CHECK FOR CODE ERRORS
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 
 //===== DATABASE CONNECTION AND CHECK
@@ -13,22 +17,37 @@ session_start();
 $site = 'dev';
 
 if ($site === 'prod'){
+
+	$websiteURL = 'http://slamdunc.co.uk/php-sites/step-challenge';
 	// connect to database
-	$db = mysqli_connect('localhost', 'slamdunc_admin', 'PHPb0bbins1', 'slamdunc_stepchallenge');
-	// $db = new PDO('mysql:host=localhost;dbname=slamdunc_stepchallenge;charset=utf8', 'slamdunc_admin', 'PHPb0bbins1');
+	// $db = mysqli_connect('localhost', 'slamdunc_admin', 'PHPb0bbins1', 'slamdunc_stepchallenge');
+	$db = new PDO('mysql:host=localhost;dbname=slamdunc_stepchallenge;charset=utf8', 'slamdunc_admin', 'PHPb0bbins1');
+	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false); 
 	//$db2 = mysqli_connect('localhost', 'root', '', 'multi_login'); //repetition here - used in users.php - alternative is to close $db - not sure of best way
+	
 } 
 elseif ($site === 'dev'){
+
+	$websiteURL = 'http://localhost/php/php-sites/step-challenge/';
 	// connect to database
-	$db = mysqli_connect('localhost', 'root', 'root', 'slamdunc_stepchallenge');
-	// $db = new PDO('mysql:host=localhost;dbname=slamdunc_stepchallenge;charset=utf8', 'root', 'root');
+	//$db = mysqli_connect('localhost', 'root', 'root', 'slamdunc_stepchallenge');
+	$db = new PDO('mysql:host=localhost;dbname=slamdunc_stepchallenge;charset=utf8', 'root', 'root');
+	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false); 
 	//$db2 = mysqli_connect('localhost', 'root', '', 'multi_login'); //repetition here - used in users.php - alternative is to close $db - not sure of best way
 }
 
 // check database connection
-if(mysqli_connect_errno()){
-	printf("Database Connection Failed: %s\n", mysqli_connect_error());
-	exit();
+// if(mysqli_connect_errno()){
+// 	printf("Database Connection Failed: %s\n", mysqli_connect_error());
+// 	exit();
+// }
+
+if ($db){
+	echo 'connection made';
+}else{
+	echo 'connection failed';
 }
 
 // php global variable declarations
@@ -68,16 +87,19 @@ function login(){
 	}
 
 	// attempt login if no errors on form
-	if (count($errors) == 0) {
+	if (count($errors) === 0) {
 		$password = md5($password); //md5() function encrypts the variable
 
-		$query = "SELECT * FROM users WHERE username='$username' AND password='$password' LIMIT 1";
-		$results = mysqli_query($db, $query);
+		$sql = $db->prepare("SELECT * FROM users WHERE username='$username' AND password='$password' LIMIT 1");
+		$sql->execute();
+		$results = $sql->fetch();
+		print_r($results);
 
-		if (mysqli_num_rows($results) == 1) { // user found
+		if ($results) { // user found
 			// check if user is admin or user and assign user to session
-			$logged_in_user = mysqli_fetch_assoc($results);
-			if ($logged_in_user['user_type'] == 'admin') { //check if login is admin
+			
+			$logged_in_user = $results;
+			if ($logged_in_user['user_type'] === 'admin') { //check if login is admin
 
 				$_SESSION['user'] = $logged_in_user; //assign user (all array values: id, userid, steps, date, created) to session
 				$_SESSION['success']  = "You are now logged in";
@@ -145,21 +167,21 @@ function create_user(){
 	}
 
 	// create user if there are no errors in the form
-	if (count($errors) == 0) {
+	if (!$errors) {
 		$password = md5($password_1);//encrypt the password before saving in the database
 
 		if (isset($_POST['user_type'])) {
 			$user_type = $_POST['user_type'];
-			$query = "INSERT INTO users (username, email, user_type, password, team)
-					  VALUES('$username', '$email', '$user_type', '$password', '$team')";
-			mysqli_query($db, $query);
+			$sql = $db->prepare("INSERT INTO users (username, email, user_type, password, team)
+					  VALUES('$username', '$email', '$user_type', '$password', '$team')");
+			$sql->execute();
 			$_SESSION['success']  = "New user successfully created!!";
 			echo $_SESSION['success'];
 			header('location: manage_users.php');
 		}else{
-			$query = "INSERT INTO users (username, email, user_type, password, team)
-					  VALUES('$username', '$email', 'user', '$password', '$team')";
-			mysqli_query($db, $query);
+			$sql = $db->prepare("INSERT INTO users (username, email, user_type, password, team)
+					  VALUES('$username', '$email', 'user', '$password', '$team')");
+			$sql->execute();
 /*
 			// get id of the created user
 			$logged_in_user_id = mysqli_insert_id($db);
@@ -263,9 +285,9 @@ function input(){
 	}
 
 	// attempt insert if no errors on form
-	if (count($errors) == 0) {
-		$query = "INSERT INTO posts (id, userid, steps, ride, swim, date, created) VALUES (NULL, {$_SESSION['user']['id']}, $steps, $ride, $swim, str_to_date('".$date."', '%Y-%c-%d'), CURRENT_TIMESTAMP)";
-		mysqli_query($db, $query);
+	if (!$errors) {
+		$sql = $db->prepare("INSERT INTO posts (id, userid, steps, ride, swim, date, created) VALUES (NULL, {$_SESSION['user']['id']}, $steps, $ride, $swim, str_to_date('".$date."', '%Y-%c-%d'), CURRENT_TIMESTAMP)");
+		$sql->execute();
 
 		// reset form values
 		$date = '';

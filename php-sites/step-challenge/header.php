@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="../test.css">
 
     <title>Step Challenge</title>
 	

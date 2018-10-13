@@ -57,9 +57,9 @@ if (isset($_GET['logout'])) {
 
 		<div class="row">
 
-			<div class="col-md-4">
+			<div class="col-md-6">
 
-				<div class="card border-primary mb-3" style="max-width: 20rem;">
+				<div class="card border-primary mb-3" style="max-width: 40rem;">
 					<div class="card-header text-white bg-primary"><?php echo $_SESSION['user']['username'] . "'s Steps" ?></div>
 						<div class="card-body text-primary bg-default">
 							<!--<h4 class="card-title">Primary card title</h4>-->
@@ -69,7 +69,7 @@ if (isset($_GET['logout'])) {
 				</div>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-md-3">
 
 				<div class="card border-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header text-white bg-primary">Input Steps</div>
@@ -87,7 +87,15 @@ if (isset($_GET['logout'])) {
 										<input type="text" name="steps" value="<?php echo $steps; ?>">
 								</div>
 								<div class="form-group">
-										<button type="submit" class="btn btn-primary" name="input_btn">Input</button>
+									<label>Ride</label><br>
+									<input type="text" name="ride" value="<?php echo $ride; ?>">
+								</div>
+								<div class="form-group">
+									<label>Swim</label><br>
+									<input type="text" name="swim" value="<?php echo $swim; ?>">
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary" name="input_btn">Input</button>
 								</div>
 							</form>
 						</div>
@@ -97,14 +105,14 @@ if (isset($_GET['logout'])) {
 				</div>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-md-3">
 
 				<div class="card border-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header text-white bg-primary">Team Leaderboard</div>
 						<div class="card-body text-primary bg-default">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-							<?php include('../leaderboard.php') ?>
+							<?php include('../team_leaderboard.php') ?>
 						</div>
 				</div>
 			
@@ -115,6 +123,15 @@ if (isset($_GET['logout'])) {
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 							<?php include('../user_leaderboard.php') ?>
+						</div>
+				</div>
+
+				<div class="card border-primary mb-3" style="max-width: 20rem;">
+					<div class="card-header text-white bg-primary"><?=$_SESSION['user']['username'] . "'s Team - ". $_SESSION['user']['team']?></div>
+						<div class="card-body text-primary bg-default">
+							<!--<h4 class="card-title">Primary card title</h4>-->
+							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+							<?php include('../teams.php') ?>
 						</div>
 				</div>
 			</div>

@@ -1,7 +1,9 @@
+th {
+  color: #036de6;
+}
+
 .card-text {
-  color: #2780e3;
+  color: #5095e4;
 }
 
 /*# sourceMappingURL=test.css.map */
-
-/* use sass --watch test.scss test.css */

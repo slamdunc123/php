@@ -6,14 +6,14 @@
         <th scope="col">TEAM</th>
     </tr>
 <?
-    $sql = $db->prepare("SELECT team, username, id FROM  users ORDER BY team ASC");
+    $sql = $db->prepare("SELECT id, username, team FROM users ORDER BY team ASC");
     $sql->execute();
     $results = $sql->fetchAll();
         if($results) {
             // output data of each row
             foreach($results as $result) {
                 echo "<tr>";
-                echo "<td><div class='card-text'> {$result["id"]} </div></td><td><div class='card-text'> {$result["username"]} </div></td><td><div class='card-text'> {$result["team"]} </div></td><td><a href='update_user.php?id={$result['id']}' class='btn btn-warning'>Update</a></td><td><a href='delete_user.php?id={$result['id']}' class='btn btn-danger'>Delete</a></td>";
+                echo "<td><div class='card-text'> {$result["id"]} </div></td><td><div class='card-text'> {$result["username"]} </div></td><td><div class='card-text'> {$result["team"]} </div></td>";
                 echo "</tr>";
 
             }

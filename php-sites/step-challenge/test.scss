@@ -1,7 +1,13 @@
-$color: #2780e3;
+$colorPrimary: #2780e3;
+$colorPrimaryLight: #5095e4;
+$colorPrimaryDark: #036de6;
+
+th {
+    color: $colorPrimaryDark;
+}
 
 .card-text {
-    color: $color;
+    color: $colorPrimaryLight;
 }
 
 

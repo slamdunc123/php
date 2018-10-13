@@ -7,19 +7,19 @@
 
 	$id = $_GET['id'];
 
-	$sql = "SELECT * FROM users WHERE id = '$id'";
-	$rows = $db->query($sql);
-
-	$row = $rows->fetch_assoc();
+	$sql = $db->prepare("SELECT * FROM users WHERE id = '$id'");
+	$sql->execute();
+	$results = $sql->fetch();
 
 	if(isset($_POST['update'])){ // if button name="update" is clicked
 
 	  $username = $_POST['username']; // store input field name="task" into variable $task
 
-	  $sql = "UPDATE `users` SET `username` = '$username' WHERE id = '$id'"; // sql query to update variable $task value in task field of tasks database and store in $sql variable
+		$sql = $db->prepare("UPDATE `users` SET `username` = '$username' WHERE id = '$id'"); // sql query to update variable $task value in task field of tasks database and store in $sql variable
+		$results = $sql->execute();
 
-	  $query = $db->query($sql);
-	  if($query){ // if $query == true then...
+	  
+	  if($results){ // if $query == true then...
 		//echo "<h1>Task Added Successfully</h1>";
 		//echo 'query successful';
 		header('location: manage_users.php'); // go to index.php page
@@ -43,7 +43,7 @@
           <form method="post" action=""> <!-- ensure the form action is set to the correct page, in this case this page (could leave blank or delete the action="" altogether but don't put action="update.php")-->
             <div class="form-group">
               <label for="">User: </label> <?php echo $id ?>
-              <input type="text" name="username" value="<?php echo $row['username']; ?>" class="form-control" required><br>
+              <input type="text" name="username" value="<?php echo $results['username']; ?>" class="form-control" required><br>
             </div>
             <button type="submit" name="update" value="" class="btn btn-primary">Update</button> <!-- needs to be a button not input -->
           </form>

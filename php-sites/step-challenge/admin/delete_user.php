@@ -4,11 +4,11 @@ $id = $_GET['id'];
 
 //echo $id;
 
-$sql = "DELETE FROM users WHERE id = '$id'";
+$sql = $db->prepare("DELETE FROM users WHERE id = '$id'");
 
-$query = $db->query($sql);
+$result = $sql->execute();
 
-if($query){
+if($result){
   header('location: manage_users.php');
 }
 
