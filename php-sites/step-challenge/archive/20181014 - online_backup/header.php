@@ -10,17 +10,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+     <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="test.css">
-    <link rel="stylesheet" href="../test.css">
 
     <title>Step Challenge</title>
 	
 </head>
 <body>
 <?php include('navbar.php') ?>
+
 <?php 
 // echo "Session Details: <br>"; 
 ?>

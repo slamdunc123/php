@@ -1,5 +1,6 @@
 <?php include('../functions.php') ?>
 <?php include('../header.php') ?>
+
 <div class="container">
 		<div class="jumbotron">
 			<h2>Step Challenge - Admin</h2>
@@ -70,4 +71,5 @@
 		</div>
 
 </div>
+	
 <?php include('../footer.php') ?>

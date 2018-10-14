@@ -1,4 +1,5 @@
-<?php include '../functions.php';
+<?php include('../functions.php');?>
+<?php
 
 $id = $_GET['id'];
 
@@ -11,7 +12,4 @@ $result = $sql->execute();
 if($result){
   header('location: manage_users.php');
 }
-
-
-
- ?>
+?>

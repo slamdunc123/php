@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+}
+
+
+
+.error {
+  color:red;
+}
+.success {
+  color:green;
+}
+
+/* .medal{
+  width: 10px;
+  height: 10px;
+} */
+
+.hero-image {
+  height: 50%;
+  background-image: url(images/running_shoes-1200x700.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #add8e6;
+}
+
+.card-header {
+  font-size: small;
+}
+
+td {
+  font-size: small;
+  font-weight: bold;
+}
+
+
