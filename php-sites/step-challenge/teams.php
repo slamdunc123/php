@@ -1,4 +1,4 @@
-<!--users table-->
+<!--team table-->
 <table class="table table-hover">
     <tr>
         <th scope="col">ID</th>
@@ -6,7 +6,10 @@
         <th scope="col">TEAM</th>
     </tr>
 <?
-    $sql = $db->prepare("SELECT id, username, team FROM users ORDER BY team ASC");
+
+    $team = $_SESSION['user']['team'];
+    
+    $sql = $db->prepare("SELECT id, username, team FROM users WHERE team = '$team' ORDER BY team ASC");
     $sql->execute();
     $results = $sql->fetchAll();
         if($results) {

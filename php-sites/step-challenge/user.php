@@ -61,7 +61,7 @@
 		<div class="col-md-6">
 
 			<div class="card border-primary mb-3" style="max-width: 40rem;">
-				<div class="card-header text-white bg-primary"><?php echo $_SESSION['user']['username'] . "'s Steps" ?></div>
+				<div class="card-header text-white bg-primary"><?php echo $_SESSION['user']['username'] . "'s Totals" ?></div>
 					<div class="card-body text-primary bg-default">
 						<!--<h4 class="card-title">Primary card title</h4>-->
 						<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
@@ -133,6 +133,15 @@
 						<?php include('user_leaderboard.php') ?>
 					</div>
 			</div>
+
+			<div class="card border-primary mb-3" style="max-width: 20rem;">
+					<div class="card-header text-white bg-primary"><?=$_SESSION['user']['username'] . "'s Team - ". $_SESSION['user']['team']?></div>
+						<div class="card-body text-primary bg-default">
+							<!--<h4 class="card-title">Primary card title</h4>-->
+							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+							<?php include('./teams.php') ?>
+						</div>
+				</div>
 		</div>
     	    	
     </div>
