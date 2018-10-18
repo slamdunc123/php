@@ -37,9 +37,9 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-lg-4 col-md-8 col-sm-12">
 
-				<div class="card border-primary mb-3" style="max-width: 20rem;">
+				<div class="card border-primary mb-3" style="max-width: 30rem;">
 					<div class="card-header text-white bg-primary">User Login</div>
 						<div class="card-body text-primary bg-default">
 							<!--<h4 class="card-title">Primary card title</h4>-->
@@ -74,9 +74,9 @@
 				</div>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-lg-4 col-md-8 col-sm-12">
 
-				<div class="card border-primary mb-3" style="max-width: 20rem;">
+				<div class="card border-primary mb-3" style="max-width: 30rem;">
 					<div class="card-header text-white bg-primary">Team Leaderboard</div>
 						<div class="card-body text-primary bg-default">
 							<!--<h4 class="card-title">Primary card title</h4>-->
@@ -86,9 +86,9 @@
 				</div>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-lg-4 col-md-8 col-sm-12">
 
-				<div class="card border-primary mb-3" style="max-width: 20rem;">
+				<div class="card border-primary mb-3" style="max-width: 30rem;">
 					<div class="card-header text-white bg-primary">User Leaderboard</div>
 						<div class="card-body text-primary bg-default">
 							<!--<h4 class="card-title">Primary card title</h4>-->

@@ -57,7 +57,7 @@ if (isset($_GET['logout'])) {
 
 		<div class="row">
 
-			<div class="col-md-6">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-auto">
 
 				<div class="card border-primary mb-3" style="max-width: 40rem;">
 					<div class="card-header text-white bg-primary"><?php echo $_SESSION['user']['username'] . "'s Totals" ?></div>
@@ -69,7 +69,7 @@ if (isset($_GET['logout'])) {
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 
 				<div class="card border-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header text-white bg-primary">Input Steps</div>
@@ -105,7 +105,7 @@ if (isset($_GET['logout'])) {
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-xl-3 col-lg-6 col-md-5 col-sm-12">
 
 				<div class="card border-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header text-white bg-primary">Team Leaderboard</div>
