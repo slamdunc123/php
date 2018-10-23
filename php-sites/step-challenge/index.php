@@ -100,10 +100,13 @@
 
 		</div>
 		
+		
 		<?php 
 		// include 'contactForm.php' 
 		?>
 	</div>
+
+
 	
 
 
