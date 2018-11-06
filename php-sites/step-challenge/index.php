@@ -69,8 +69,8 @@
 				
 				<div class="">
 					<?php 
-					echo display_error(); 
-					?><br>
+				echo display_error();
+				?><br>
 				</div>
 			</div>
 
@@ -99,11 +99,26 @@
 			</div>
 
 		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-12">
+
+			<div class="card border-primary mb-3" style="max-width: 120rem;">
+			<div class="card-header text-white bg-primary">Team Leaderboard Chart</div>
+				<div class="card-body text-primary bg-default table-responsive">
+					<!--<h4 class="card-title">Primary card title</h4>-->
+					<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+					<?php include('team_leaderboard_chart.php') ?>
+			</div>
+		</div>
+</div>
+
+		</div>
 		
 		
 		<?php 
 		// include 'contactForm.php' 
-		?>
+	?>
 	</div>
 
 

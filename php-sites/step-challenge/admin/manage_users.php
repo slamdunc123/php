@@ -10,7 +10,7 @@
 
 				<div class="card border-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header text-white bg-primary">Create User</div>
-						<div class="card-body text-primary bg-default">
+						<div class="card-body text-primary bg-default table-responsive">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 							<form method="post" action="manage_users.php">
@@ -59,7 +59,7 @@
 
 				<div class="card border-primary mb-3" style="max-width: 60rem;">
 					<div class="card-header text-white bg-primary">Users</div>
-						<div class="card-body text-primary bg-default">
+						<div class="card-body text-primary bg-default table-responsive">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 							<?php include('users.php') ?>

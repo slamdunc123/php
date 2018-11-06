@@ -61,7 +61,7 @@ if (isset($_GET['logout'])) {
 
 				<div class="card border-primary mb-3" style="max-width: 40rem;">
 					<div class="card-header text-white bg-primary"><?php echo $_SESSION['user']['username'] . "'s Totals" ?></div>
-						<div class="card-body text-primary bg-default">
+						<div class="card-body text-primary bg-default table-responsive">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 							<?php include('../steps.php') ?>
@@ -73,7 +73,7 @@ if (isset($_GET['logout'])) {
 
 				<div class="card border-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header text-white bg-primary">Input Steps</div>
-						<div class="card-body text-primary bg-default">
+						<div class="card-body text-primary bg-default table-responsive">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 
@@ -109,7 +109,7 @@ if (isset($_GET['logout'])) {
 
 				<div class="card border-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header text-white bg-primary">Team Leaderboard</div>
-						<div class="card-body text-primary bg-default">
+						<div class="card-body text-primary bg-default table-responsive">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 							<?php include('../team_leaderboard.php') ?>
@@ -119,7 +119,7 @@ if (isset($_GET['logout'])) {
 
 				<div class="card border-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header text-white bg-primary">User Leaderboard</div>
-						<div class="card-body text-primary bg-default">
+						<div class="card-body text-primary bg-default table-responsive">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 							<?php include('../user_leaderboard.php') ?>
@@ -128,7 +128,7 @@ if (isset($_GET['logout'])) {
 
 				<div class="card border-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header text-white bg-primary"><?=$_SESSION['user']['team'] . " Members"?></div>
-						<div class="card-body text-primary bg-default">
+						<div class="card-body text-primary bg-default table-responsive">
 							<!--<h4 class="card-title">Primary card title</h4>-->
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 							<?php include('../teams.php') ?>
