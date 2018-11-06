@@ -23,12 +23,12 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-        ['Team', 'Total'],
+        ['Team', 'Total', { role: 'annotation' }],
 
         <?php
         foreach($results as $row)
         {
-            echo "['".$row["team"]."',".$row["total"]."],";
+            echo "['".$row["team"]."',".$row["total"].",".$row["total"]."],";
         }
             
         ?>
@@ -36,11 +36,12 @@
 
         var options = {
           title: 'Team Performance',
+          colors: ['#2780E3'],
           curveType: 'function',
           legend: { position: 'bottom' }
         };
 
-        var chart = new google.visualization.BarChart(document.getElementById('curve_chart'));
+        var chart = new google.visualization.ColumnChart(document.getElementById('curve_chart'));
 
         chart.draw(data, options);
       }
