@@ -50,6 +50,8 @@ elseif ($site === 'dev'){
 // }
 
 // php global variable declarations
+$firstname = "";
+$surname = "";
 $username = "";
 $email    = "";
 $team = "";
@@ -142,6 +144,8 @@ function create_user(){
 	global $db, $errors, $username, $email;
 
 	// grab form values and store in php variables
+	$firstname   =  $_POST['firstname'];
+	$surname     =  $_POST['surname'];
 	$username    =  $_POST['username'];
 	$email       =  $_POST['email'];
 	$team		 =  $_POST['team'];
@@ -149,6 +153,12 @@ function create_user(){
 	$password_2  =  $_POST['password_2'];
 
 	// form validation
+	if (empty($firstname)) {
+		array_push($errors, "First Name is required");
+	}
+	if (empty($surname)) {
+		array_push($errors, "Surname is required");
+	}
 	if (empty($username)) {
 		array_push($errors, "Username is required");
 	}
@@ -171,15 +181,15 @@ function create_user(){
 
 		if (isset($_POST['user_type'])) {
 			$user_type = $_POST['user_type'];
-			$sql = $db->prepare("INSERT INTO users (username, email, user_type, password, team)
-					  VALUES('$username', '$email', '$user_type', '$password', '$team')");
+			$sql = $db->prepare("INSERT INTO users (firstname, surname, username, email, user_type, password, team)
+					  VALUES('$firstname', '$surname', '$username', '$email', '$user_type', '$password', '$team')");
 			$sql->execute();
 			$_SESSION['success']  = "New user successfully created!!";
 			// echo $_SESSION['success'];
 			header('location: manage_users.php');
 		}else{
-			$sql = $db->prepare("INSERT INTO users (username, email, user_type, password, team)
-					  VALUES('$username', '$email', 'user', '$password', '$team')");
+			$sql = $db->prepare("INSERT INTO users (firstname, surname, username, email, user_type, password, team)
+					  VALUES('$firstname', '$surname', '$username', '$email', 'user', '$password', '$team')");
 			$sql->execute();
 /*
 			// get id of the created user

@@ -6,7 +6,7 @@
 		</div>
 		<a href="admin.php">back</a><br><br>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">	
 
 				<div class="card border-primary mb-3" style="max-width: 20rem;">
 					<div class="card-header text-white bg-primary">Create User</div>
@@ -15,6 +15,14 @@
 							<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 							<form method="post" action="manage_users.php">
 
+								<div class="form-group">
+									<label>First Name</label><br>
+									<input type="text" name="firstname" value="<?php echo $firstname; ?>">
+								</div>
+								<div class="form-group">
+									<label>Surname</label><br>
+									<input type="text" name="surname" value="<?php echo $surname; ?>">
+								</div>
 								<div class="form-group">
 									<label>Username</label><br>
 									<input type="text" name="username" value="<?php echo $username; ?>">
@@ -54,8 +62,9 @@
 					<?php echo display_error(); ?><br>
 				</div>
 			</div>
+	
 
-			<div class="col-md-6">
+			<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
 
 				<div class="card border-primary mb-3" style="max-width: 60rem;">
 					<div class="card-header text-white bg-primary">Users</div>
