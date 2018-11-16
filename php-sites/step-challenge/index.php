@@ -1,5 +1,11 @@
 <?php include('functions.php') ?>
 <?php include('header.php') ?>
+	<?
+	// Error Check
+		ini_set('display_errors', 1);
+		ini_set('display_startup_errors', 1);
+		error_reporting(E_ALL);
+	?>
 
 	<!-- <div class="hero-image">
 		<div class="hero-text">
@@ -32,10 +38,10 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
+	
+<section class="sectionPrimary">
 
-	<hr>
-
-	<div class="container">
+<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-4">
 
@@ -49,16 +55,16 @@
 
 										<div class="form-group">
 											<label for="username">Username</label><br>
-											<input type="text" id="username" name="username" placeholder="username">
+											<input type="text" class="form-control" id="username" name="username" placeholder="username">
 										</div>
 										
 										<div class="form-group">
 											<label for="password">Password</label><br>
-											<input type="password" id="password" name="password" placeholder="password">
+											<input type="password" class="form-control" id="password" name="password" placeholder="password">
 										</div>
 										
 										<div class="form-group">
-											<button class="btn btn-primary" type="submit" class="btn" name="login_btn">Login</button>
+											<button class="btn btn-primary form-control" type="submit" name="login_btn">Login</button>
 										</div>
 										
 									</fieldset>
@@ -99,6 +105,12 @@
 			</div>
 
 		</div>
+	</div>
+
+</section>
+	
+<section class="sectionSecondary">
+	<div class="container">
 
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-12">
@@ -109,11 +121,14 @@
 					<!--<h4 class="card-title">Primary card title</h4>-->
 					<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 					<?php include('team_leaderboard_chart.php') ?>
+				</div>
+			</div>
 			</div>
 		</div>
-</div>
+	</div>
 
-		</div>
+</section>
+	
 		
 		
 		<?php 

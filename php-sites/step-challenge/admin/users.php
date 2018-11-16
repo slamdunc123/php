@@ -20,8 +20,8 @@
                 <td><div class='card-text'> {$result["firstname"]} </div></td>
                 <td><div class='card-text'> {$result["surname"]} </div></td>
                 <td><div class='card-text'> {$result["team"]} </div></td>
-                <td><a href='update_user.php?id={$result['id']}' class='btn btn-warning'>Update</a></td>
-                <td><a href='delete_user.php?id={$result['id']}' class='btn btn-danger'>Delete</a></td>";
+                <td><a href='update_user.php?id={$result['id']}' class='btn btn-warning form-control'>Update</a></td>
+                <td><a href='delete_user.php?id={$result['id']}' class='btn btn-danger form-control'>Delete</a></td>";
                 echo "</tr>";
 
             }

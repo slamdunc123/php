@@ -26,6 +26,9 @@ $sql = $db->prepare("SELECT * FROM users WHERE id = '$id'");
 	<a href="manage_users.php">back</a><br><br>
  		<div class="row">
 			 <div class="col-md-10 offset-1">
+			 <div class="card border-primary mb-3" style="">
+			 <div class="card-header text-white bg-primary">Update User</div>
+						<div class="card-body text-primary bg-default table-responsive">
 				 <form method="post" action=""> <!-- ensure the form action is set to the correct page, in this case this page (could leave blank or delete the action="" altogether but don't put action="update.php")-->
 					<div class="form-group">
 						<label for="">User: </label><?php echo $id ?><br>
@@ -47,10 +50,13 @@ $sql = $db->prepare("SELECT * FROM users WHERE id = '$id'");
 						<input type="text" name="team" value="<?php echo $results['team']; ?>" class="form-control" required>
 					</div>
 					<div class="form-group">
-						<button type="submit" name="update" value="" class="btn btn-primary">Update</button> <!-- needs to be a button not input -->
+						<button type="submit" name="update" value="" class="btn btn-primary form-control">Update</button> <!-- needs to be a button not input -->
 					</div>
 				</form>
 			</div>
+</div>
+</div>
+</div>
 		</div>
 </div>
 <?php include('../footer.php')?>

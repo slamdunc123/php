@@ -1,6 +1,5 @@
-
 <!--leaderboard table chart-->
-      
+     
 <?
     $sql = $db->prepare("SELECT team, 
     -- SUM(steps) AS steps, 

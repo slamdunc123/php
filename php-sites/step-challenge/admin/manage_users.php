@@ -17,27 +17,27 @@
 
 								<div class="form-group">
 									<label>First Name</label><br>
-									<input type="text" name="firstname" value="<?php echo $firstname; ?>">
+									<input type="text" class="form-control" name="firstname" value="<?php echo $firstname; ?>">
 								</div>
 								<div class="form-group">
 									<label>Surname</label><br>
-									<input type="text" name="surname" value="<?php echo $surname; ?>">
+									<input type="text" class="form-control" name="surname" value="<?php echo $surname; ?>">
 								</div>
 								<div class="form-group">
 									<label>Username</label><br>
-									<input type="text" name="username" value="<?php echo $username; ?>">
+									<input type="text" class="form-control" name="username" value="<?php echo $username; ?>">
 								</div>
 								<div class="form-group">
 									<label>Email</label><br>
-									<input type="email" name="email" value="<?php echo $email; ?>">
+									<input type="email" class="form-control" name="email" value="<?php echo $email; ?>">
 								</div>
 								<div class="form-group">
 									<label>Team</label><br>
-									<input type="team" name="team" value="<?php echo $team; ?>">
+									<input type="team" class="form-control" name="team" value="<?php echo $team; ?>">
 								</div>
 								<div class="form-group">
 									<label>User type</label><br>
-									<select name="user_type" id="user_type" >
+									<select class="form-control" name="user_type" id="user_type" >
 										<option value=""></option>
 										<option value="admin">Admin</option>
 										<option value="user">User</option>
@@ -45,14 +45,14 @@
 								</div>
 								<div class="form-group">
 									<label>Password</label><br>
-									<input type="password" name="password_1">
+									<input class="form-control" type="password" name="password_1">
 								</div>
 								<div class="form-group">
 									<label>Confirm password</label><br>
-									<input type="password" name="password_2">
+									<input class="form-control" type="password" name="password_2">
 								</div>
 								<div class="form-group">
-									<button type="submit" class="btn btn-primary" name="create_user_btn">Create</button>
+									<button type="submit" class="btn btn-primary form-control" name="create_user_btn">Create</button>
 								</div>
 							</form>
 

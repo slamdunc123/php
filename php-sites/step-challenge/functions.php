@@ -15,7 +15,7 @@ session_start();
 
 $site = 'dev';
 
-if ($site === 'prod'){
+if ($site === 'live'){
 
 	$websiteURL = 'http://slamdunc.co.uk/php-sites/step-challenge';
 	// connect to database

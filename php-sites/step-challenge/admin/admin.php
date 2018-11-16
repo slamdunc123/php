@@ -80,22 +80,22 @@ if (isset($_GET['logout'])) {
 							<form method="post" action="admin.php">
 								<div class="form-group">
 									<label>Date</label><br>
-									<input type="date" name="date" value="<?php echo $date; ?>">
+									<input type="date" class="form-control" name="date" value="<?php echo $date; ?>">
 								</div>
 								<div class="form-group">
 									<label>Steps</label><br>
-									<input type="text" name="steps" value="<?php echo $steps; ?>">
+									<input type="text" class="form-control" name="steps" value="<?php echo $steps; ?>">
 								</div>
 								<div class="form-group">
 									<label>Ride</label><br>
-									<input type="text" name="ride" value="<?php echo $ride; ?>">
+									<input type="text" class="form-control" name="ride" value="<?php echo $ride; ?>">
 								</div>
 								<div class="form-group">
 									<label>Swim</label><br>
-									<input type="text" name="swim" value="<?php echo $swim; ?>">
+									<input type="text" class="form-control" name="swim" value="<?php echo $swim; ?>">
 								</div>
 								<div class="form-group">
-									<button type="submit" class="btn btn-primary" name="input_btn">Input</button>
+									<button type="submit" class="btn btn-primary form-control" name="input_btn">Input</button>
 								</div>
 							</form>
 						</div>

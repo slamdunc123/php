@@ -1,6 +1,8 @@
 $colorPrimary: #2780e3;
 $colorPrimaryLight: #5095e4;
 $colorPrimaryDark: #036de6;
+$colorPrimaryExtraLight: #c6e1ff;
+$colorSecondaryExtraLight: #a1b5cc;
 
 th {
     color: $colorPrimaryDark;
@@ -10,4 +12,24 @@ th {
     color: $colorPrimaryLight;
 }
 
+
+.form-control {
+    border-radius: 0.25em;
+}
+
+.footer {
+    background-color: $colorPrimary;
+    color: white;
+}
+
+.sectionPrimary {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+.sectionSecondary {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 

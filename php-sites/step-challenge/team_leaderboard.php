@@ -1,4 +1,3 @@
-
 <!--leaderboard table-->
 <table class="table table-hover">           
         <tr>
@@ -8,9 +7,9 @@
         </tr>          
 <?
     $sql = $db->prepare("SELECT team, 
-  /*  SUM(steps) AS steps, 
+    SUM(steps) AS steps, 
     SUM(ride) AS ride, 
-    SUM(swim) AS swim, */
+    SUM(swim) AS swim, 
     (SUM(steps) + SUM(ride) + SUM(swim)) AS total 
     FROM  users, posts WHERE users.id = userid GROUP BY team ORDER BY SUM(steps) DESC LIMIT 3");
     $sql->execute();
