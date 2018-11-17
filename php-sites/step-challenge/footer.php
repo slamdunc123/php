@@ -24,7 +24,7 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 });
 </script>
 
-<!-- back to top -->
+<!-- back-to-top link -->
 
 <script src="plugins/back-to-top/jquery.goTop.js"></script>
        <script>
@@ -36,21 +36,21 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 <script>
     $(function () {
 
-$('#go-top').goTop({
+        $('#go-top').goTop({
 
-  // top offset
-  scrollTop: 100,
+        // top offset
+        scrollTop: 100,
 
-  // scroll speed in milliseconds
-  scrollSpeed: 1000,
+        // scroll speed in milliseconds
+        scrollSpeed: 1000,
 
-  // fade in/out speed in milliseconds
-  fadeInSpeed: 1000,
-  fadeOutSpeed: 500
-  
-})
+        // fade in/out speed in milliseconds
+        fadeInSpeed: 1000,
+        fadeOutSpeed: 500
+        
+        })
 
-})
+    })
 </script>
 
 

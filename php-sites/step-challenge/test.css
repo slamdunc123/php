@@ -25,4 +25,19 @@ th {
   padding-bottom: 20px;
 }
 
+#go-top {
+  display: none;
+  font-size: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border: 2px solid #2780e3;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=test.css.map */
